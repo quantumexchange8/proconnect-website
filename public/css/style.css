@@ -871,7 +871,7 @@ select:visited {
 .header-style-seven:before {
   top: 0;
   right: 0;
-  width: 60%;
+  width: 50%;
   z-index: -1;
   content: "";
   height: 115px;
@@ -2487,7 +2487,7 @@ select:visited {
 /*----------------------------------------------------*/
 .ori-fun-fact-section {
   padding: 100px 0px 95px;
-  background-color: #00AC83;
+  background-color: rgb(131, 192, 233);
 }
 
 .ori-fun-fact-item .ori-fun-fact-icon {
@@ -3470,6 +3470,7 @@ select:visited {
 /*feature Area*/
 /*----------------------------------------------------*/
 .ori-feature-section-4 {
+  background-color: #ecf7ff;
   z-index: 1;
   overflow: hidden;
   padding: 120px 0px 100px;
@@ -3504,8 +3505,8 @@ select:visited {
   margin-bottom: 115px;
 }
 .ori-feature-item-4 .ori-feature-icon {
-  width: 70px;
-  height: 70px;
+  width: 180px;
+  height: 60px;
   margin-right: 30px;
   border-radius: 100%;
   background-color: #fff;
@@ -3627,19 +3628,28 @@ select:visited {
 /*----------------------------------------------------*/
 .ori-service-section-4 {
   z-index: 2;
-  padding: 140px 0px 0px;
+  padding: 140px 0px 140px;
 }
 
 .ori-service-item-4 {
-  padding: 50px;
+  height: 475px;
+  padding: 50px 50px 25px 50px;
   margin-bottom: 30px;
   border-radius: 20px;
   background-color: #FFFFFF;
-  -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(100, 109, 152, 0.0588235294);
-          box-shadow: 0px 4px 4px 0px rgba(100, 109, 152, 0.0588235294);
+  box-shadow: 0px 4px 4px 0px rgba(100, 109, 152, 0.0588235294);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+/* .ori-service-item-4:nth-last-child(1) {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+} */
 .ori-service-item-4 .ori-service-icon {
   width: 80px;
   height: 80px;
@@ -4290,12 +4300,12 @@ select:visited {
   font-size: 18px;
   line-height: 30px;
 }
-.ori-service-inner-item-5 .read-more {
+.ori-service-inner-item-7 .read-more {
   margin-top: 25px;
   position: relative;
   display: inline-block;
 }
-.ori-service-inner-item-5 .read-more span {
+.ori-service-inner-item-7 .read-more span {
   left: 20px;
   opacity: 0;
   color: #000;
@@ -4307,10 +4317,10 @@ select:visited {
   transition: 500ms all ease;
   font-family: var(--heading-3);
 }
-.ori-service-inner-item-5 .read-more:hover {
+.ori-service-inner-item-7 .read-more:hover {
   padding-left: 100px;
 }
-.ori-service-inner-item-5 .read-more:hover span {
+.ori-service-inner-item-7 .read-more:hover span {
   left: 0;
   opacity: 1;
 }
@@ -4781,7 +4791,7 @@ select:visited {
 /*----------------------------------------------------*/
 .ori-dm-how-help-section {
   overflow: hidden;
-  padding-bottom: 90px;
+  padding: 90px 0;
 }
 .ori-dm-how-help-section .ori-section-title-6 p {
   font-size: 22px;
@@ -5028,7 +5038,7 @@ select:visited {
 .ori-banner-section-7 {
   background-color: #f9f9f9;
 }
-.ori-banner-section-7:before {
+/* .ori-banner-section-7:before {
   top: 0;
   right: 0;
   content: "";
@@ -5036,7 +5046,7 @@ select:visited {
   height: 100%;
   position: absolute;
   background-color: #fff;
-}
+} */
 .ori-banner-section-7 .ori-banner-shape1 {
   top: 0;
   right: 0;
@@ -5138,6 +5148,8 @@ select:visited {
 
 .ori-banner-content-7 {
   padding: 280px 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .ori-banner-text-wrap-7 {
@@ -5289,10 +5301,8 @@ select:visited {
   position: absolute;
   border-radius: 100%;
   background-color: #fff;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  -webkit-box-shadow: 0px 0px 8px 0px rgba(6, 6, 6, 0.16);
-          box-shadow: 0px 0px 8px 0px rgba(6, 6, 6, 0.16);
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 8px 0px rgba(6, 6, 6, 0.16);
 }
 .ori-service-content-7 .carousel_nav .ser7-left_arrow {
   left: -8px;
@@ -5307,10 +5317,13 @@ select:visited {
 .ori-service-item-7 .ori-service-inner-item-7 {
   z-index: 1;
   border-radius: 50px;
+  height: 400px;
   padding: 40px 20px;
   background-color: rgb(255, 255, 255);
-  -webkit-box-shadow: 0px 11px 46px 0px rgba(6, 6, 6, 0.16);
-          box-shadow: 0px 11px 46px 0px rgba(6, 6, 6, 0.16);
+  box-shadow: 0px 11px 46px 0px rgba(6, 6, 6, 0.16);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .ori-service-item-7 .ori-service-inner-item-7:before {
   top: 0;
@@ -5363,6 +5376,30 @@ select:visited {
   color: #40c6c5;
 }
 .ori-service-item-7 .ori-service-inner-item-7.ser-color-4 .service-shape1:before, .ori-service-item-7 .ori-service-inner-item-7.ser-color-4 .service-shape1:after {
+  background-color: #00d20a;
+}
+.ori-service-item-7 .ori-service-inner-item-7.ser-color-5 .ori-service-icon i {
+  color: #00d20a;
+}
+.ori-service-item-7 .ori-service-inner-item-7.ser-color-5 .service-shape1:before, .ori-service-item-7 .ori-service-inner-item-7.ser-color-4 .service-shape1:after {
+  background-color: #00d20a;
+}
+.ori-service-item-7 .ori-service-inner-item-7.ser-color-6 .ori-service-icon i {
+  color: #00d20a;
+}
+.ori-service-item-7 .ori-service-inner-item-7.ser-color-6 .service-shape1:before, .ori-service-item-7 .ori-service-inner-item-7.ser-color-4 .service-shape1:after {
+  background-color: #00d20a;
+}
+.ori-service-item-7 .ori-service-inner-item-7.ser-color-7 .ori-service-icon i {
+  color: #00d20a;
+}
+.ori-service-item-7 .ori-service-inner-item-7.ser-color-7 .service-shape1:before, .ori-service-item-7 .ori-service-inner-item-7.ser-color-4 .service-shape1:after {
+  background-color: #00d20a;
+}
+.ori-service-item-7 .ori-service-inner-item-7.ser-color-8 .ori-service-icon i {
+  color: #00d20a;
+}
+.ori-service-item-7 .ori-service-inner-item-7.ser-color-8 .service-shape1:before, .ori-service-item-7 .ori-service-inner-item-7.ser-color-4 .service-shape1:after {
   background-color: #00d20a;
 }
 .ori-service-item-7 .ori-service-inner-item-7.ser-color-4 .ori-service-icon i {
@@ -5780,8 +5817,7 @@ select:visited {
   padding: 50px;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
-  -webkit-box-shadow: -2.072px 16.873px 18px 0px rgba(6, 6, 6, 0.05);
-          box-shadow: -2.072px 16.873px 18px 0px rgba(6, 6, 6, 0.05);
+  box-shadow: 3.928px 1.873px 18px 14px rgba(6, 6, 6, 0.05);
 }
 .ori-get-started-content h3 {
   color: #0b1c2b;
@@ -6446,7 +6482,7 @@ select:visited {
   margin-left: 10px;
 }
 
-.ori-footer-content-7:before {
+/* .ori-footer-content-7:before {
   top: 0;
   left: 0;
   right: 0;
@@ -6456,7 +6492,7 @@ select:visited {
   margin: 0 auto;
   position: absolute;
   background-color: #262a3b;
-}
+} */
 
 /*---------------------------------------------------- */
 /* Inner Page Area*/
@@ -6468,8 +6504,10 @@ select:visited {
 
 .ori-breadcrumb-content {
   padding: 245px 0px 165px;
+  
 }
 .ori-breadcrumb-content h1 {
+  color: #ffffff;
   font-size: 50px;
   font-weight: 700;
   line-height: 60px;
@@ -7286,6 +7324,12 @@ select:visited {
   text-align: left;
 }
 
+.ori-faq-text-wrapper-content {
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3.928px 1.873px 18px 14px rgba(6, 6, 6, 0.05);
+}
 .ori-faq-text-wrapper-content .ori-inner-section-title {
   max-width: 460px;
 }
@@ -7303,7 +7347,7 @@ select:visited {
 }
 .ori-faq-accordion-item-area .accordion-button {
   padding: 0;
-  color: #fff;
+  color: #000;
   font-size: 24px;
   font-weight: 700;
 }
@@ -7339,9 +7383,9 @@ select:visited {
   padding-bottom: 60px;
 }
 
-.ori-faq-price-section {
+/* .ori-faq-price-section {
   overflow: hidden;
-}
+} */
 
 .ori-faq-price-content {
   padding-top: 70px;
@@ -7350,7 +7394,8 @@ select:visited {
 .ori-faq-price-inner-item {
   padding: 50px;
   border-radius: 20px;
-  background-color: #171717;
+  background-color: #fff;
+  box-shadow: 3.928px 1.873px 18px 14px rgba(6, 6, 6, 0.05);
 }
 .ori-faq-price-inner-item .ori-faq-price-title {
   margin-bottom: 35px;
@@ -7364,15 +7409,14 @@ select:visited {
   font-weight: 700;
   letter-spacing: 0.1em;
 }
-.ori-faq-price-inner-item .ori-faq-price-title h3 {
-  color: #fff;
+.ori-faq-price-inner-item .ori-faq-price-title h2 {
   font-size: 50px;
   font-weight: 700;
   line-height: 60px;
   padding-top: 22px;
 }
-.ori-faq-price-inner-item .ori-faq-price-title h3 span {
-  font-size: 18px;
+.ori-faq-price-inner-item .ori-faq-price-title h2 span {
+  font-size: 13px;
   font-weight: 400;
 }
 .ori-faq-price-inner-item .ori-faq-price-slug {
