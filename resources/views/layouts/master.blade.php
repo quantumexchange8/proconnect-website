@@ -45,23 +45,24 @@
 						<nav class="ori-main-navigation clearfix ul-li">
 							<ul id="main-nav" class="nav navbar-nav clearfix">
 								<li class="dropdown ori-megamenu">
-									<a href="!#">Home</a>
+									<a href="/index">Home</a>
 								</li>
 								<li class="dropdown">
-									<a href="!#">Services</a>
+									<a href="#">Services</a>
 									<ul class="dropdown-menu clearfix">
-										<li><a target="_blank" href="service-single.html">Web Development</a></li>
-										<li><a target="_blank" href="service-single.html">UI/UX Design</a></li>
-										<li><a target="_blank" href="service-single.html">Digital Marketing</a></li>
-										<li><a target="_blank" href="service-single.html">Product Design</a></li>
-										<li><a target="_blank" href="service-single.html">Mobile Solutions</a></li>
-										<li><a target="_blank" href="service-single.html">App Development</a></li>
-										<li><a target="_blank" href="service-single.html">Email Marketing</a></li>
+										<li><a href="/services/web-design">Web Design</a></li>
+										<li><a href="/services/seo">SEO</a></li>
+										<li><a href="/services/data">Data</a></li>
+										<li><a href="/services/content">Content</a></li>
+										<li><a href="/services/formation">Formation</a></li>
+										<li><a href="/services/design">Design</a></li>
+										<li><a href="/services/media">Media</a></li>
+										<li><a href="/services/social">Social</a></li>
 									</ul>
 								</li>
-								<li><a target="_blank" href="about.html">About</a></li>
-								<li><a target="_blank" href="contact.html">Contact Page</a></li>
-								<li><a target="_blank" href="faq">FAQ Page</a></li>
+								<li><a href="/about">About</a></li>
+								<li><a href="/contact">Contact</a></li>
+								<li><a href="/faq">FAQ</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -83,30 +84,24 @@
 						<nav class="mobile-main-navigation  clearfix ul-li">
 							<ul id="m-main-nav" class="nav navbar-nav clearfix">
 								<li class="dropdown ori-megamenu">
-									<a href="!#">Home</a>
+									<a href="index">Home</a>
 								</li>
-								<li><a target="_blank" href="about.html">About</a></li>
 								<li class="dropdown">
-									<a href="!#">Pages</a>
+									<a href="#">Services</a>
 									<ul class="dropdown-menu clearfix">
-										<li><a target="_blank" href="service.html">Services</a></li>
-										<li class="dropdown">
-											<a href="service-single.html">Services Details</a>
-											<ul class="dropdown-menu clearfix">
-												<li><a target="_blank" href="service-single.html">Web Development</a></li>
-												<li><a target="_blank" href="service-single.html">UI/UX Design</a></li>
-												<li><a target="_blank" href="service-single.html">Digital Marketing</a></li>
-												<li><a target="_blank" href="service-single.html">Product Design</a></li>
-												<li><a target="_blank" href="service-single.html">Mobile Solutions</a></li>
-												<li><a target="_blank" href="service-single.html">App Development</a></li>
-												<li><a target="_blank" href="service-single.html">Email Marketing</a></li>
-											</ul>
-										</li>
-										<li><a target="_blank" href="faq.html">FAQ Page</a></li>
-										<li><a target="_blank"  href="pricing.html">Pricing Page</a></li>
-										<li><a target="_blank" href="contact.html">Contact Page</a></li>
+										<li><a href="services/web-design">Web Development</a></li>
+										<li><a href="services/seo">UI/UX Design</a></li>
+										<li><a href="services/data">Digital Marketing</a></li>
+										<li><a href="services/content">Product Design</a></li>
+										<li><a href="services/formation">Mobile Solutions</a></li>
+										<li><a href="services/design">App Development</a></li>
+										<li><a href="services/media">Email Marketing</a></li>
+										<li><a href="services/social">Social</a></li>
 									</ul>
 								</li>
+								<li><a href="about">About</a></li>
+								<li><a href="contact">Contact</a></li>
+								<li><a href="faq">FAQ</a></li>
 							</ul>
 						</nav>
 					</div>

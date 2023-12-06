@@ -13,7 +13,7 @@
 			<span class="banner-social position-absolute"><img src="/img/logo/bs5.png" alt=""></span>
 			<span class="banner-social position-absolute"><img src="/img/logo/bs6.png" alt=""></span>
 			<div class="ori-banner-text-area pera-content text-center">
-				<h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Extend your reach with us <span> to your target customers.</span></h1>
+				<h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Navigating Success, <br>Digitally Crafted, <br>Distinctly Yours.</h1>
 				<p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Delivering an optimal return on investment for your customized SEO campaign.</p>
 				<div class="ori-banner-form-4 position-relative wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
 					<form action="#" method="get">
@@ -36,37 +36,27 @@
 				<div class="ori-sponsor-slider-7">
 					<div class="ori-sponsor-img">
 						<div class="inner-img">
-							<img src="/img/sponsor/sp12.png" alt="">
+							<img src="/img/logo/lomapro-high-resolution-logo-black-transparent.png" alt="">
 						</div>
 					</div>
 					<div class="ori-sponsor-img">
 						<div class="inner-img">
-							<img src="/img/sponsor/sp13.png" alt="">
+							<img src="/img/logo/ocean-logi-high-resolution-logo-black-transparent.png" alt="">
 						</div>
 					</div>
 					<div class="ori-sponsor-img">
 						<div class="inner-img">
-							<img src="/img/sponsor/sp14.png" alt="">
+							<img src="/img/logo/penapcer-high-resolution-logo-black-transparent.png" alt="">
 						</div>
 					</div>
 					<div class="ori-sponsor-img">
 						<div class="inner-img">
-							<img src="/img/sponsor/sp15.png" alt="">
+							<img src="/img/logo/quagotech-high-resolution-logo-black-transparent.png" alt="">
 						</div>
 					</div>
 					<div class="ori-sponsor-img">
 						<div class="inner-img">
-							<img src="/img/sponsor/sp16.png" alt="">
-						</div>
-					</div>
-					<div class="ori-sponsor-img">
-						<div class="inner-img">
-							<img src="/img/sponsor/sp12.png" alt="">
-						</div>
-					</div>
-					<div class="ori-sponsor-img">
-						<div class="inner-img">
-							<img src="/img/sponsor/sp13.png" alt="">
+							<img src="/img/logo/strategic-solutions-high-resolution-logo-black-transparent.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -81,51 +71,46 @@
 	<section id="ori-integration" class="ori-integration-section position-relative">
 		<div class="ori-section-title-2  text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
 			<div class="sub-title text-uppercase pera-content">
-				Who use Orixy
+				Who use Proconnect
 			</div>
 			<h1>Integrations<span>.</span></h1>
-			<p>Over 32K+ software businesses growing with Dulax.</p>
+			<p>Over 32+ software businesses growing with Proconnect.</p>
 		</div>
 		<div class="ori-integration-content">
 			<div class="ori-integration-sroll clearfix">
 				<div class="integration-item">
 					<div class="integration-img">
-						<img src="/img/sponsor/sp1.png" alt="">
+						<img src="/img/logo/lomapro-high-resolution-logo-black-transparent.png" alt="">
 					</div>
 				</div>
 				<div class="integration-item">
 					<div class="integration-img">
-						<img src="/img/sponsor/sp2.png" alt="">
+						<img src="/img/logo/penapcer-high-resolution-logo-black-transparent.png" alt="">
 					</div>
 				</div>
 				<div class="integration-item">
 					<div class="integration-img">
-						<img src="/img/sponsor/sp3.png" alt="">
+						<img src="/img/logo/ocean-logi-high-resolution-logo-black-transparent.png" alt="">
 					</div>
 				</div>
 				<div class="integration-item">
 					<div class="integration-img">
-						<img src="/img/sponsor/sp4.png" alt="">
+						<img src="/img/logo/strategic-solutions-high-resolution-logo-black-transparent.png" alt="">
 					</div>
 				</div>
 				<div class="integration-item">
 					<div class="integration-img">
-						<img src="/img/sponsor/sp5.png" alt="">
+						<img src="/img/logo/quagotech-high-resolution-logo-black-transparent.png" alt="">
 					</div>
 				</div>
 				<div class="integration-item">
 					<div class="integration-img">
-						<img src="/img/sponsor/sp1.png" alt="">
+						<img src="/img/logo/penapcer-high-resolution-logo-black-transparent.png" alt="">
 					</div>
 				</div>
 				<div class="integration-item">
 					<div class="integration-img">
-						<img src="/img/sponsor/sp2.png" alt="">
-					</div>
-				</div>
-				<div class="integration-item">
-					<div class="integration-img">
-						<img src="/img/sponsor/sp3.png" alt="">
+						<img src="/img/logo/lomapro-high-resolution-logo-black-transparent.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -154,10 +139,10 @@
 					<div class="col-lg-5">
 						<div class="ori-about-img-item-wrap position-relative wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
 							<div class="ori-about-inner-img1">
-								<img src="/img/about/abs1.jpg" alt="">
+								<img src="/img/logo/strategic-solutions-high-resolution-logo-black-transparent.png" alt="">
 							</div>
 							<div class="ori-about-inner-img2">
-								<img src="/img/about/abs2.jpg" alt="">
+								<img src="/img/logo/quagotech-high-resolution-logo-black-transparent.png" alt="">
 							</div>
 							<div class="ori-about-shape-circle">
 								<img src="/img/about/abs-cir.png" alt="">
@@ -168,14 +153,13 @@
 						<div class="ori-about-text-area-7 wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
 							<div class="ori-section-title-7">
 								<div class="sub-title text-uppercase">About our Company</div>
-								<h2>Beyond a coworking
-									space with <span>Orixy</span>
+								<h2>Extend your reach to your target customers  with <span>Proconnect</span>
 								</h2>
 							</div>
 							<div class="ori-about-text-wrap-7 pera-content">
-								<p>When it comes to making multiple business decisions, it’s easy to get caught up in the weeds.</p>
-								<p>Your workspace should provide you more tools and resources to conquer everyday work challenges and prepare you for your best. A virtual office is the smartest way to establish a presence in a new market</p>
-								<p>Choose a plan with phone and virtual receptionist support.</p>
+								<p>An innovator and trailblazer of digital marketing.</p>
+								<p>We craft and deliver engaging web experiences, generate organic web traffic through advanced and technical SEO, and leverage data for guided decisions.</p>
+								<p>Join us for an innovative and successful journey into the digital era, from design solutions to strategic brand formation.</p>
 								<div class="ori-btn-7">
 									<a href="contact.html">Contact us</a>
 								</div>
@@ -196,7 +180,7 @@
 			<div class="ori-section-title-7 text-center wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
 				<div class="sub-title text-uppercase">Our Services</div>
 				<h2>Beyond a coworking
-					space with <span>Orixy</span>
+					space with <span>Proconnect</span>
 				</h2>
 			</div>
 			<div class="ori-service-content-7 position-relative">
@@ -345,8 +329,8 @@
 							</div>
 							<div class="ori-fun-fact-text pera-content">
 								<h3><span class="counter">2420</span>+ Users</h3>
-								<p>Rorem ipsum dolor sit ametcon of this 
-								adipiscing elit, tempor</p>
+								<!-- <p>Rorem ipsum dolor sit ametcon of this 
+								adipiscing elit, tempor</p> -->
 							</div>
 						</div>
 					</div>
@@ -357,8 +341,8 @@
 							</div>
 							<div class="ori-fun-fact-text pera-content">
 								<h3><span class="counter">349</span>+ Rating</h3>
-								<p>Rorem ipsum dolor sit ametcon of this 
-								adipiscing elit, tempor</p>
+								<!-- <p>Rorem ipsum dolor sit ametcon of this 
+								adipiscing elit, tempor</p> -->
 							</div>
 						</div>
 					</div>
@@ -369,8 +353,8 @@
 							</div>
 							<div class="ori-fun-fact-text pera-content">
 								<h3><span class="counter">580</span>+ Download</h3>
-								<p>Rorem ipsum dolor sit ametcon of this 
-								adipiscing elit, tempor</p>
+								<!-- <p>Rorem ipsum dolor sit ametcon of this 
+								adipiscing elit, tempor</p> -->
 							</div>
 						</div>
 					</div>
@@ -381,8 +365,8 @@
 							</div>
 							<div class="ori-fun-fact-text pera-content">
 								<h3><span class="counter">970</span>+ Like</h3>
-								<p>Rorem ipsum dolor sit ametcon of this 
-								adipiscing elit, tempor</p>
+								<!-- <p>Rorem ipsum dolor sit ametcon of this 
+								adipiscing elit, tempor</p> -->
 							</div>
 						</div>
 					</div>
@@ -393,138 +377,108 @@
 <!-- End of Fun Fact section
 	============================================= -->
 
-<!-- Start of Video Skill section
+<!-- Start of Feature section
 	============================================= -->
-	<!-- <section id="ori-video-skill-7" class="ori-video-skill-section-7 ">
-		<div class="ori-video-skill-content-7 d-flex">
-			<div class="ori-video-play-7 position-relative">
-				<div class="ori-play-video-play position-absolute">
-					
-				</div>
-			</div>
-			<div class="ori-skill-content-7">
-				<div class="ori-skill-content-progress">
-					<div class="ori-section-title-7 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-						<div class="sub-title text-uppercase">Our Skill</div>
-						<h2>
-							<span>Orixy</span>is the best company for skills
-						</h2>
-					</div>
-					<div class="ori-skill-text-progress-bar wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-						<p>Your workspace should provide you more tools and resources to conquer everyday work challenges and prepare you for your best. A virtual office is the smartest way to establish new market. </p>
-						<div class="ori-skill-progress-7">
-							<div class="skill-progress-bar">
-								<div class="skill-set-percent headline">
-									<h4>Crativity</h4>
-									<div class="progress">
-										<div class="progress-bar" data-percent="92"></div>
-									</div>
-								</div>
-								<div class="skill-set-percent headline">
-									<h4>Work Management</h4>
-									<div class="progress">
-										<div class="progress-bar" data-percent="85"></div>
-									</div>
-								</div>
-								<div class="skill-set-percent headline">
-									<h4>Skill</h4>
-									<div class="progress">
-										<div class="progress-bar" data-percent="99"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="ori-skill-client-more">
-							<div class="inner-img-list ul-li d-flex align-items-center">
-								<ul>
-									<li><img src="/img/slider/tmb1.jpg" alt=""></li>
-									<li><img src="/img/slider/tmb2.jpg" alt=""></li>
-									<li><img src="/img/slider/tmb3.jpg" alt=""></li>
-								</ul>
-								<div class="more-btn">
-									2k+ Real Clients. <a href="about.html"><span>Explor now</span> <i class="far fa-arrow-right"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<section id="ori-feature-4" class="ori-feature-section-4 position-relative">
-		<div class="dot-line-shape position-absolute"><img src="/img/vector/banner-vector.png" alt=""></div>
+	<section id="ori-feature-2" class="ori-feature-section-2 position-relative">
 		<div class="container">
-			<div class="ori-feature-content-4">
-				<div class="row">
-					<div class="col-lg-5">
-						<div class="ori-feature-text-wrap-4">
-							<div class="ori-section-title-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-								<h2>Grow your website <span> traffic with us</span></h2>
+			<div class="ori-feature-top-content-2 d-flex justify-content-between align-items-center">
+				<div class="ori-section-title-2 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
+					<div class="sub-title text-uppercase pera-content">
+						Features
+					</div>
+					<h2>Grow your website with us<span>.</span></h2>
+				</div>
+				<div class="ori-feature-top-text-2 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
+					Rorem ipsum dolor sit ametconsectetur adipiscing elit,tempor Rorem ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod temporRorem ipsum dolor
+				</div>
+			</div>
+			<div class="ori-feature-content-2">
+				<div class="row justify-content-center">
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+						<div class="ori-feature-item-2">
+							<div class="ori-feature-icon-2">
+								<img src="/img/icon/global-network_3601336.png" alt="">
 							</div>
-							<div class="ori-feature-text-area-4 pera-content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-								<p>We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out.</p>
-								<p>Our developers are committed to maintaining the highest web standards so that your site will withstand the test of time. We care about your business.</p>
-								<div class="ori-btn-2 text-uppercase">
-									<a href="about.html">discover more</a>
-								</div>
+							<div class="ori-feature-text-2 pera-content">
+								<h4>Ignite Your Presence</h4>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-7">
-						<div class="ori-feature-item-wrapper-4">
-							<div class="row">
-								<div class="col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-									<div class="ori-feature-item-4 d-flex">
-										<div class="ori-feature-icon d-flex justify-content-center align-items-center">
-											<i class="fal fa-file-search"></i>
-										</div>
-										<div class="ori-feature-text pera-content">
-											<h3>Discover, Explore <span> the Product</span></h3>
-											<p>All our content marketing service packages include a custom content strategy</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-									<div class="ori-feature-item-4 d-flex">
-										<div class="ori-feature-icon d-flex justify-content-center align-items-center">
-											<i class="far fa-asterisk"></i>
-										</div>
-										<div class="ori-feature-text pera-content">
-											<h3>Art Direction & <span>  Brand Strategy </span></h3>
-											<p>All our content marketing service packages include a custom content strategy</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-									<div class="ori-feature-item-4 d-flex">
-										<div class="ori-feature-icon d-flex justify-content-center align-items-center">
-											<i class="fal fa-pencil-ruler"></i>
-										</div>
-										<div class="ori-feature-text pera-content">
-											<h3>Product UX, Design <span>  & Development</span></h3>
-											<p>All our content marketing service packages include a custom content strategy</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-6 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
-									<div class="ori-feature-item-4 d-flex">
-										<div class="ori-feature-icon d-flex justify-content-center align-items-center">
-											<i class="fal fa-bullhorn"></i>
-										</div>
-										<div class="ori-feature-text pera-content">
-											<h3>Marketing Strategy <span>  & SEO Campaigns</span></h3>
-											<p>All our content marketing service packages include a custom content strategy</p>
-										</div>
-									</div>
-								</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
+						<div class="ori-feature-item-2">
+							<div class="ori-feature-icon-2">
+								<img src="/img/icon/seo-web_4179708.png" alt="">
+							</div>
+							<div class="ori-feature-text-2 pera-content">
+								<h4>Dominate Search Engines</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+						<div class="ori-feature-item-2">
+							<div class="ori-feature-icon-2">
+								<img src="/img/icon/management_9404768.png" alt="">
+							</div>
+							<div class="ori-feature-text-2 pera-content">
+								<h4>Data-Driven Excellence</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+						<div class="ori-feature-item-2">
+							<div class="ori-feature-icon-2">
+								<img src="/img/icon/blogging_314145.png" alt="">
+							</div>
+							<div class="ori-feature-text-2 pera-content">
+								<h4>Compelling Content Creation</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+						<div class="ori-feature-item-2">
+							<div class="ori-feature-icon-2">
+								<img src="/img/icon/politics_8088898.png" alt="">
+							</div>
+							<div class="ori-feature-text-2 pera-content">
+								<h4>Form a Robust Foundation</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+						<div class="ori-feature-item-2">
+							<div class="ori-feature-icon-2">
+								<img src="/img/icon/compatibility_5796511.png" alt="">
+							</div>
+							<div class="ori-feature-text-2 pera-content">
+								<h4>Cohesive Design Solutions</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+						<div class="ori-feature-item-2">
+							<div class="ori-feature-icon-2">
+								<img src="/img/icon/podcast_6668102.png" alt="">
+							</div>
+							<div class="ori-feature-text-2 pera-content">
+								<h4>Strategic Media Presence</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+						<div class="ori-feature-item-2">
+							<div class="ori-feature-icon-2">
+								<img src="/img/icon/target_6148258.png" alt="">
+							</div>
+							<div class="ori-feature-text-2 pera-content">
+								<h4>Socialize with Purpose</h4>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-<!-- End of Video Skill section
+	</section>				
+<!-- End of Feature section
 	============================================= -->
 
 <!-- Start of counter project section
