@@ -12,18 +12,18 @@
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/css/jquery-ui.css">
-	<link rel="stylesheet" href="/css/fontawesome-all.css">
-	<link rel="stylesheet" href="/css/animate.css">
-	<link rel="stylesheet" href="/css/odometer-theme-default.css">
-	<link rel="stylesheet" href="/css/video.min.css">
-	<link rel="stylesheet" href="/css/slick-theme.css">
-	<link rel="stylesheet" href="/css/slick.css">
-	<link rel="stylesheet" href="/css/global.css">
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/swiper.css">
-	<link rel="stylesheet" href="/css/rs6.css">
+	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/fontawesome-all.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/odometer-theme-default.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/video.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/slick-theme.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/slick.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/global.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/swiper.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/rs6.css') }}">
 </head>
 <body class="digital-agency-2">
 	<div id="preloader"></div>
@@ -79,29 +79,27 @@
 							<i class="fal fa-times"></i>
 						</div>
 						<div class="m-brand-logo">
-							<a  href="!#"><img src="/img/logo/logo1.png" alt=""></a>
+							<a  href="/index"><img src="/img/logo/logo1.png" alt=""></a>
 						</div>
 						<nav class="mobile-main-navigation  clearfix ul-li">
 							<ul id="m-main-nav" class="nav navbar-nav clearfix">
-								<li class="dropdown ori-megamenu">
-									<a href="index">Home</a>
-								</li>
+								<li class="ori-megamenu"><a href="/index">Home</a></li>
 								<li class="dropdown">
 									<a href="#">Services</a>
 									<ul class="dropdown-menu clearfix">
-										<li><a href="services/web-design">Web Development</a></li>
-										<li><a href="services/seo">UI/UX Design</a></li>
-										<li><a href="services/data">Digital Marketing</a></li>
-										<li><a href="services/content">Product Design</a></li>
-										<li><a href="services/formation">Mobile Solutions</a></li>
-										<li><a href="services/design">App Development</a></li>
-										<li><a href="services/media">Email Marketing</a></li>
-										<li><a href="services/social">Social</a></li>
+										<li><a href="/services/web-design">Web Design</a></li>
+										<li><a href="/services/seo">SEO</a></li>
+										<li><a href="/services/data">Data</a></li>
+										<li><a href="/services/content">Content</a></li>
+										<li><a href="/services/formation">Formation</a></li>
+										<li><a href="/services/design">Design</a></li>
+										<li><a href="/services/media">Media</a></li>
+										<li><a href="/services/social">Social</a></li>
 									</ul>
 								</li>
-								<li><a href="about">About</a></li>
-								<li><a href="contact">Contact</a></li>
-								<li><a href="faq">FAQ</a></li>
+								<li><a href="/about">About</a></li>
+								<li><a href="/contact">Contact</a></li>
+								<li><a href="/faq">FAQ</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -204,6 +202,30 @@
 	<script src="/js/jquery.magnific-popup.min.js"></script>
 	<script src="/js/jquery.marquee.min.js"></script>
 	<script src="/js/script.js"></script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var currentPageUrl = window.location.pathname;
+
+			// Find the corresponding navigation link and add the 'active' class
+			var navLinks = document.querySelectorAll("#main-nav a");
+			navLinks.forEach(function(link) {
+				if (link.getAttribute("href") === currentPageUrl) {
+					link.classList.add("active");
+				}
+			});
+		});
+
+		document.addEventListener("DOMContentLoaded", function() {
+			var currentPageUrl = window.location.pathname;
+			var mobileNavLinks = document.querySelectorAll("#m-main-nav a");
+			mobileNavLinks.forEach(function(link) {
+				if (link.getAttribute("href") === currentPageUrl) {
+					link.classList.add("active");
+				}
+			});
+		});
+	</script>
 
 </body>
 </html>		

@@ -635,6 +635,9 @@ select:visited {
   top: 100%;
 }
 
+/* .ori-main-navigation-area .ori-main-navigation-area .navbar-nav li a.active {
+  color: var(--base-color-1);
+} */
 .ori-main-navigation-area .navbar-nav {
   display: inherit;
 }
@@ -885,6 +888,10 @@ select:visited {
   color: #141729;
   font-weight: 700;
   letter-spacing: 0;
+}
+.header-style-seven .ori-main-navigation li a.active, 
+.header-style-seven .mobile-main-navigation li a.active {
+  color: var(--base-color-1)!important;
 }
 .header-style-seven .ori-main-navigation-area .dropdown:after {
   color: #141729;
@@ -2488,8 +2495,12 @@ select:visited {
 /*FunFact*/
 /*----------------------------------------------------*/
 .ori-fun-fact-section {
-  padding: 100px 0px 95px;
+  padding: 100px 80px 95px;
   background-color: rgb(131, 192, 233);
+}
+
+.ori-fun-fact-item {
+	padding-left:40px;
 }
 
 .ori-fun-fact-item .ori-fun-fact-icon {
@@ -5308,7 +5319,7 @@ select:visited {
 /*----------------------------------------------------*/
 .ori-service-section-7 {
   overflow: hidden;
-  padding: 120px 0px;
+  padding: 120px 30px;
 }
 
 .ori-service-content-7 {
@@ -11414,7 +11425,7 @@ Font load
   }
 
   .ori-header-section {
-    padding: 25px 15px;
+    padding: 80px 25px;
   }
 
   .mobile_menu_button {
@@ -11495,6 +11506,7 @@ Font load
 
   .ori-fun-fact-item {
     margin-bottom: 40px;
+		margin-left: 10%;
   }
 
   .ori-app-overview-section .overview-shape1,
@@ -12149,6 +12161,16 @@ Font load
     max-width: 300px;
     margin-bottom: 40px;
   }
+
+	.ori-feature-item-2 .ori-feature-icon-2 img {
+		width: 65px;
+		height: 65px;
+	}
+	.ori-feature-item-2 .ori-feature-text-2 h4 {
+		font-size: 14px;
+		font-weight: 700;
+		padding-bottom: 18px;
+	}
 }
 @media screen and (max-width: 680px) {
   .ori-header-login-signup .ori-sign-btn button {
@@ -13038,7 +13060,7 @@ Font load
   }
 
   .ori-header-section.header-style-seven .brand-logo {
-    left: 50px;
+    left: 35%;
     right: auto;
     width: 120px;
   }
@@ -13545,6 +13567,12 @@ Font load
   }
 }
 @media screen and (max-width: 380px) {
+	.ori-header-section.header-style-seven .brand-logo {
+    left: 50px;
+    right: auto;
+    width: 120px;
+  }
+
   .ori-slider-text h1 {
     font-size: 45px;
     line-height: 50px;

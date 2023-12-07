@@ -27,3 +27,6 @@ Route::get('/services/social', function () { return view('services.social'); });
 Route::get('/about', function () { return view('about'); });
 Route::get('/contact', function () { return view('contact'); });
 Route::get('/faq', function () { return view('faq'); });
+
+//for testing purposes
+Route::get('/test', function () { return view('test'); });

@@ -68,7 +68,7 @@
 
 <!-- Start of Integration section
 	============================================= -->
-	<section id="ori-integration" class="ori-integration-section position-relative">
+	<!-- <section id="ori-integration" class="ori-integration-section position-relative">
 		<div class="ori-section-title-2  text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
 			<div class="sub-title text-uppercase pera-content">
 				Who use Proconnect
@@ -115,17 +115,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="line_animation">
-			<div class="line_area"></div>
-			<div class="line_area"></div>
-			<div class="line_area"></div>
-			<div class="line_area"></div>
-			<div class="line_area"></div>
-			<div class="line_area"></div>
-			<div class="line_area"></div>
-			<div class="line_area"></div>
-		</div> -->
-	</section>
+	</section> -->
 <!-- End of Integration section
 	============================================= -->
 

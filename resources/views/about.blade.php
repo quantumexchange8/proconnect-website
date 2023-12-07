@@ -8,7 +8,7 @@
 			<div class="ori-breadcrumb-content text-center ul-li">
 				<h1>About Us</h1>
 				<ul>
-					<li><a href="index.html">Proconnect</a></li>
+					<li><a href="/index">Proconnect</a></li>
 					<li>About Us</li>
 				</ul>
 			</div>

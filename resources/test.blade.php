@@ -1,1 +1,0 @@
-//try out js-marquee for the scroll animation of several pictures on separate local page
