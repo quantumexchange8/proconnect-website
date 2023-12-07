@@ -2175,6 +2175,9 @@ select:visited {
   margin-bottom: 40px;
   border-radius: 20px;
 }
+.ori-team-inner-item .ori-team-img img {
+  height: 560px;
+}
 .ori-team-inner-item .ori-team-text {
   width: 100%;
   bottom: 80px;
@@ -5274,7 +5277,7 @@ select:visited {
 }
 .ori-about-img-item-wrap .ori-about-inner-img1 img,
 .ori-about-img-item-wrap .ori-about-inner-img2 img {
-  max-height: 420px;
+  max-height: 320px;
 	padding: 40px;
 }
 .ori-about-img-item-wrap .ori-about-shape-circle {

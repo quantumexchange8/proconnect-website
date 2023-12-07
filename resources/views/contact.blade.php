@@ -26,7 +26,7 @@
 					<div class="col-lg-6">
 						<div class="ori-contact-form-text-info pera-content">
 							<h3>Get a free quote now</h3>
-							<p>Curabitur vitae nunc sed velit dignissim sodales. Urna neque viverra justo nec. In cursus massa tincidunt ut ornare the butter leo integer.</p>
+							<p>In need of a digital marketing or SEO expertise services? Simply connect with us.</p>
 							<hr>
 							<div class="ori-contact-form-item-info">
 								<div class="ori-contact-info d-flex align-items-center">
@@ -65,13 +65,13 @@
 							 	<label>Name *</label>
 							 	<input type="text" name="name">
 							 	<label>Email *</label>
-							 	<input type="text" name="email" placeholder="Orixy@example.com">
+							 	<input type="text" name="email" placeholder="Proconnect@example.com">
 							 	<label>Phone Number *</label>
 							 	<input type="text" name="text" placeholder="(629) 555-0129">
 							 	<label>Subject *</label>
-							 	<input type="text" name="text" placeholder="web..">
+							 	<input type="text" name="text" placeholder="Subject..">
 							 	<label>Message *</label>
-							 	<textarea name="message" placeholder="Nulla Lorem mollit cupidatat irure. Laborum magna.. "></textarea>
+							 	<textarea name="message" placeholder="Inquiry description.. "></textarea>
 							 	<button type="submit">submit now</button>
 							 </form>
 						</div>

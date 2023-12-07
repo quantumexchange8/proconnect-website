@@ -8,7 +8,7 @@
 			<div class="ori-breadcrumb-content text-center ul-li">
 				<h1>About Us</h1>
 				<ul>
-					<li><a href="index.html">orixy</a></li>
+					<li><a href="index.html">Proconnect</a></li>
 					<li>About Us</li>
 				</ul>
 			</div>
@@ -24,10 +24,11 @@
 			<div class="ori-about-play-top-content d-flex justify-content-between align-items-center">
 				<div class="ori-inner-section-title">
 					<span class="sub-title text-uppercase">About us</span>
-					<h2>Product Devlopment For Butter Business</h2>
+					<h2>Extend your reach to your target customers with Proconnect.</h2>
 				</div>
 				<div class="ori-about-play-top-text">
-					Rorem ipsum dolor sit ametconsectetur adipiscing elit,tempor Rorem ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod temporRorem ipsum dolor
+				We are an innovator and trailblazer of digital marketing. We craft and deliver engaging web experiences, generate organic web traffic through advanced and technical SEO,
+				 and leverage data for guided decisions. Join us for an innovative and successful journey into the digital era, from design solutions to strategic brand formation.
 				</div>
 			</div>
 			<div class="ori-about-play-area position-relative">
@@ -153,10 +154,27 @@
 						<div class="col-lg-4">
 							<div class="ori-team-inner-item position-relative">
 								<div class="ori-team-img">
-									<img src="/img/team/tm1.png" alt="">
+									<img src="/img/team/person-profile-shot-0.jpg" alt="">
 								</div>
 								<div class="ori-team-text text-center position-absolute">
 									<h3><a href="team-single.html">Alextina Ditarson</a></h3>
+									<span>SEO Consultant</span>
+								</div>
+								<div class="ori-team-social text-center position-absolute">
+									<a href="#"><i class="fab fa-facebook-f"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fab fa-instagram"></i></a>
+									<a href="#"><i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="ori-team-inner-item position-relative">
+								<div class="ori-team-img">
+									<img src="/img/team/person-profile-shot-3.jpg" alt="">
+								</div>
+								<div class="ori-team-text text-center position-absolute">
+									<h3><a href="team-single.html">Elaine Teltha</a></h3>
 									<span>GRAPHIC DESIGNER</span>
 								</div>
 								<div class="ori-team-social text-center position-absolute">
@@ -170,28 +188,11 @@
 						<div class="col-lg-4">
 							<div class="ori-team-inner-item position-relative">
 								<div class="ori-team-img">
-									<img src="/img/team/tm2.png" alt="">
+									<img src="/img/team/person-profile-shot-2.jpg" alt="">
 								</div>
 								<div class="ori-team-text text-center position-absolute">
-									<h3><a href="team-single.html">Alextina Ditarson</a></h3>
-									<span>GRAPHIC DESIGNER</span>
-								</div>
-								<div class="ori-team-social text-center position-absolute">
-									<a href="#"><i class="fab fa-facebook-f"></i></a>
-									<a href="#"><i class="fab fa-twitter"></i></a>
-									<a href="#"><i class="fab fa-instagram"></i></a>
-									<a href="#"><i class="fab fa-youtube"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="ori-team-inner-item position-relative">
-								<div class="ori-team-img">
-									<img src="/img/team/tm3.png" alt="">
-								</div>
-								<div class="ori-team-text text-center position-absolute">
-									<h3><a href="team-single.html">Alextina Ditarson</a></h3>
-									<span>GRAPHIC DESIGNER</span>
+									<h3><a href="team-single.html">Greg Yolk</a></h3>
+									<span>Software Programmer</span>
 								</div>
 								<div class="ori-team-social text-center position-absolute">
 									<a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -221,56 +222,35 @@
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp1.png" alt="">
+								<img src="/img/logo/lomapro-high-resolution-logo-black-transparent.png" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp2.png" alt="">
+								<img src="/img/logo/ocean-logi-high-resolution-logo-black-transparent.png" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp3.png" alt="">
+								<img src="/img/logo/quagotech-high-resolution-logo-black-transparent.png" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp4.png" alt="">
+								<img src="/img/logo/penapcer-high-resolution-logo-black-transparent.png" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp5.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="ori-sponsor-item">
-						<div class="ori-sponsor-img">
-							<a href="#">
-								<img src="/img/sponsor/sp1.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="ori-sponsor-item">
-						<div class="ori-sponsor-img">
-							<a href="#">
-								<img src="/img/sponsor/sp2.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="ori-sponsor-item">
-						<div class="ori-sponsor-img">
-							<a href="#">
-								<img src="/img/sponsor/sp3.png" alt="">
+								<img src="/img/logo/strategic-solutions-high-resolution-logo-black-transparent.png" alt="">
 							</a>
 						</div>
 					</div>

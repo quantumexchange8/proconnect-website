@@ -8,7 +8,7 @@
 			<div class="ori-breadcrumb-content text-center ul-li">
 				<h1>Faq</h1>
 				<ul>
-					<li><a href="index.html">orixy</a></li>
+					<li><a href="index.html">Proconnect</a></li>
 					<li>Faq</li>
 				</ul>
 			</div>
@@ -27,16 +27,16 @@
 						<div class="ori-faq-tab-btn">
 							<ul class="nav nav-tabs" id="myTab" role="tablist">
 								<li class="nav-item" role="presentation">
-									<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">About Services</button>
+									<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">General Digital Marketing</button>
 								</li>
 								<li class="nav-item" role="presentation">
-									<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Subscription & Billing</button>
+									<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Website Design</button>
 								</li>
 								<li class="nav-item" role="presentation">
-									<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Refund Policy</button>
+									<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Search Engine Optimization (SEO)</button>
 								</li>
 								<li class="nav-item" role="presentation">
-									<button class="nav-link" id="support-tab" data-bs-toggle="tab" data-bs-target="#support" type="button" role="tab" aria-controls="support" aria-selected="false">Support</button>
+									<button class="nav-link" id="support-tab" data-bs-toggle="tab" data-bs-target="#support" type="button" role="tab" aria-controls="support" aria-selected="false">Content Marketing</button>
 								</li>
 							</ul>
 						</div>
@@ -56,48 +56,39 @@
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="headingOne">
 														<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-															Why Orixy is so popular than others
+														What is digital marketing?
 														</button>
 													</h2>
 													<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample_2">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														Digital marketing is the process of promoting or advertising your business, service, or product online or through the Internet. 
+														The efforts will vary depending on the nature of the business, its objectives, and its stage in the lifecycle.
 														</div>
 													</div>
 												</div>
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="headingTwo">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-															How can we get the best from Orixy template?
+														Why is it important for my business?
 														</button>
 													</h2>
 													<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample_2">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														An inbound marketing strategy has replaced an outbound strategy as the predominant marketing paradigm thanks to digital marketing. 
+														Consumers go online to order products because they are aware of what they want and when they want it.
 														</div>
 													</div>
 												</div>
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="headingThree">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-															What payment methods are available?
+														Why do I need digital marketing for my business?
 														</button>
 													</h2>
 													<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample_2">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
-														</div>
-													</div>
-												</div>
-												<div class="accordion-item">
-													<h2 class="accordion-header" id="headingFour">
-														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-															What makes Orixy best creative template?
-														</button>
-													</h2>
-													<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample_2">
-														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														These days it is insufficient to just have a website. Due to the enormous volume of traffic and users on the internet, competition has become fierce in one of the most competitive arenas. 
+														Although your online marketing presence is built upon a website, which is why it is so crucial, a website is merely a foundation.
 														</div>
 													</div>
 												</div>
@@ -110,48 +101,42 @@
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="heading5">
 														<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
-															Why Orixy is so popular than others
+														What should be included on my business website?
 														</button>
 													</h2>
 													<div id="collapse5" class="accordion-collapse collapse show" aria-labelledby="heading5" data-bs-parent="#accordionExample_3">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														In general, websites should have the following pages: Home Page, About Us Page, Services/Products Page, Blog, and a Contact Us page. 
+														However, this entirely depends on the kind of business you are in. <br><br>
+
+														Please don't worry if you are unsure of what should be on your website. Our team of professionals always conducts a thorough analysis of your company to ensure 
+														that we are adding all the necessary pages to really make your product or service stand out.
 														</div>
 													</div>
 												</div>
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="heading6">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-															How can we get the best from Orixy template?
+														What is the general cost for developing a business website?
 														</button>
 													</h2>
 													<div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample_3">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														Every single website for a business is unique. Website costs can range from $5,000 to $100,000, contingent on the project's complexity. 
+														Customized websites will fall between those that just need the bare minimum of functionality and basic information and those that require more.
 														</div>
 													</div>
 												</div>
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="heading7">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-															What payment methods are available?
+														What tools and technology will you use to build my business website?
 														</button>
 													</h2>
 													<div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample_3">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
-														</div>
-													</div>
-												</div>
-												<div class="accordion-item">
-													<h2 class="accordion-header" id="heading8">
-														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-															What makes Orixy best creative template?
-														</button>
-													</h2>
-													<div id="collapse8" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample_3">
-														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														We make use of whatever equipment and technology will work best for your company. After deciding which platform is best for your company, 
+														we will design and develop your website accordingly. But in more detail, we know how to work with WordPress, Joomla, Magento, Drupal, custom PHP-based websites, and many other platforms.
 														</div>
 													</div>
 												</div>
@@ -164,48 +149,40 @@
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="heading10">
 														<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
-															Why Orixy is so popular than others
+														What is Search Engine Optimization (SEO)?
 														</button>
 													</h2>
 													<div id="collapse10" class="accordion-collapse collapse show" aria-labelledby="heading10" data-bs-parent="#accordionExample_31">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														The acronym for search engine optimization is SEO. The goal of search engine optimization is to make your website more visible for targeted keyword searches 
+														while simultaneously promoting it to rank well for those same keywords.
 														</div>
 													</div>
 												</div>
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="heading12">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
-															How can we get the best from Orixy template?
+														Why is SEO so important?
 														</button>
 													</h2>
 													<div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample_31">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														SEO is crucial because it increases the prominence of your online presence and visibility. When we work on SEO, we are producing useful content and social evidence that directs internet visitors back to your company. 
+														You may connect with potential clients that you may not have previously been able to reach thanks to this inbound marketing strategy, which is extremely valuable. 
+														With the right SEO plan, your company can grow from zero to one hundred and establish an unstoppable online presence.
 														</div>
 													</div>
 												</div>
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="heading13">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
-															What payment methods are available?
+														Why do search engine rankings change so often?
 														</button>
 													</h2>
 													<div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample_31">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
-														</div>
-													</div>
-												</div>
-												<div class="accordion-item">
-													<h2 class="accordion-header" id="heading15">
-														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
-															What makes Orixy best creative template?
-														</button>
-													</h2>
-													<div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordionExample_31">
-														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														Due to search engines' ongoing efforts to enhance their functionality and give users better results, search engine rankings fluctuate frequently. 
+														As such, the factors that determine SEO ranking are ever-evolving. 
 														</div>
 													</div>
 												</div>
@@ -218,48 +195,44 @@
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="heading17">
 														<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="true" aria-controls="collapse17">
-															Why Orixy is so popular than others
+														Why is content marketing so important?
 														</button>
 													</h2>
 													<div id="collapse17" class="accordion-collapse collapse show" aria-labelledby="heading17" data-bs-parent="#accordionExample_4">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														Due to its ability to direct visitors to your website, content marketing is crucial. You can demonstrate your expertise in your field to potential clients and 
+														perhaps even provide them with helpful products or services by producing high-quality content.
 														</div>
 													</div>
 												</div>
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="heading18">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
-															How can we get the best from Orixy template?
+														How can the content that is created be used for my business?
 														</button>
 													</h2>
 													<div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18" data-bs-parent="#accordionExample_4">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														There are numerous applications for the content that is produced for your company. The following tasks are possible with the content:
+															<br>
+															<ul>
+																<li>Share it on Social Media</li>
+																<li>Distribute via Email Campaign</li>
+																<li>Post on Your Website</li>
+																<li>Utilize for Hard Copy Marketing Materials</li>
+															</ul>
 														</div>
 													</div>
 												</div>
 												<div class="accordion-item">
 													<h2 class="accordion-header" id="heading19">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
-															What payment methods are available?
+														Who determines what topics you will create content about?
 														</button>
 													</h2>
 													<div id="collapse19" class="accordion-collapse collapse" aria-labelledby="heading19" data-bs-parent="#accordionExample_4">
 														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
-														</div>
-													</div>
-												</div>
-												<div class="accordion-item">
-													<h2 class="accordion-header" id="heading20">
-														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
-															What makes Orixy best creative template?
-														</button>
-													</h2>
-													<div id="collapse20" class="accordion-collapse collapse" aria-labelledby="heading20" data-bs-parent="#accordionExample_4">
-														<div class="accordion-body">
-															A Orixy has its own IP address, which is made public instead. While a rather seemingly insignificant change, the Orixy IP address can be used for a number of vital business functions related to everything from security to customer experience.
+														Together, we ascertain what queries or worries your prospective clients might have and how we can address them in our content.
 														</div>
 													</div>
 												</div>
@@ -381,56 +354,35 @@
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp1.png" alt="">
+								<img src="/img/logo/penapcer-high-resolution-logo-black-transparent.png" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp2.png" alt="">
+								<img src="/img/logo/ocean-logi-high-resolution-logo-black-transparent.png" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp3.png" alt="">
+								<img src="/img/logo/quagotech-high-resolution-logo-black-transparent.png" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp4.png" alt="">
+								<img src="/img/logo/lomapro-high-resolution-logo-black-transparent.png" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/sponsor/sp5.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="ori-sponsor-item">
-						<div class="ori-sponsor-img">
-							<a href="#">
-								<img src="/img/sponsor/sp1.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="ori-sponsor-item">
-						<div class="ori-sponsor-img">
-							<a href="#">
-								<img src="/img/sponsor/sp2.png" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="ori-sponsor-item">
-						<div class="ori-sponsor-img">
-							<a href="#">
-								<img src="/img/sponsor/sp3.png" alt="">
+								<img src="/img/logo/strategic-solutions-high-resolution-logo-black-transparent.png" alt="">
 							</a>
 						</div>
 					</div>

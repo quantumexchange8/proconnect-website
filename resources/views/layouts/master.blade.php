@@ -38,7 +38,7 @@
 		<div class="ori-header-content-area">
 			<div class="ori-header-content d-flex align-items-center justify-content-between">
 				<div class="brand-logo">
-					<a href="#"><img src="/img/logo/logo5.png" alt=""></a>
+					<a href="/index"><img src="/img/logo/logo5.png" alt=""></a>
 				</div>
 				<div class="ori-main-navigation-cta-btn d-flex align-items-center">
 					<div class="ori-main-navigation-area">
@@ -143,7 +143,7 @@
 					<div class="row">
 						<div class="col-md-6">
 							<div class="ori-footer-text">
-								This is where aspiration meets innovation, candor fuels collaboration and impossible surrenders to teamwork.
+								Here is where ambition and creativity converge, sincerity fosters teamwork, and impossibility yields to cooperation.
 							</div>
 						</div>
 						<div class="col-md-6">
@@ -163,7 +163,7 @@
 				<div class="ori-footer-logo-social d-flex justify-content-between align-items-center">
 					<div class="ori-footer-logo">
 						<div class="brand-logo">
-							<a href="#"><img src="/img/logo/logo6.png" alt=""></a>
+							<a href="/index"><img src="/img/logo/logo6.png" alt=""></a>
 						</div>
 					</div>
 					<div class="ori-footer-social">
@@ -174,7 +174,7 @@
 					</div>
 				</div>
 				<div class="ori-footer-copyright text-center">
-					© 2022 Orixy - Multipurpose. All rights reserved.
+					© 2023 Proconnect. All rights reserved.
 				</div>
 			</div>
 		</div>

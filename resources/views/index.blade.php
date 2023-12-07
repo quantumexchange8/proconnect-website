@@ -74,7 +74,7 @@
 				Who use Proconnect
 			</div>
 			<h1>Integrations<span>.</span></h1>
-			<p>Over 32+ software businesses growing with Proconnect.</p>
+			<p>Over 36+ software businesses growing with Proconnect.</p>
 		</div>
 		<div class="ori-integration-content">
 			<div class="ori-integration-sroll clearfix">
@@ -139,10 +139,10 @@
 					<div class="col-lg-5">
 						<div class="ori-about-img-item-wrap position-relative wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
 							<div class="ori-about-inner-img1">
-								<img src="/img/logo/strategic-solutions-high-resolution-logo-black-transparent.png" alt="">
+								<img src="/img/team/person-profile-shot-2.jpg" alt="">
 							</div>
 							<div class="ori-about-inner-img2">
-								<img src="/img/logo/quagotech-high-resolution-logo-black-transparent.png" alt="">
+								<img src="/img/team/person-profile-shot-3.jpg" alt="">
 							</div>
 							<div class="ori-about-shape-circle">
 								<img src="/img/about/abs-cir.png" alt="">
@@ -179,8 +179,7 @@
 		<div class="container">
 			<div class="ori-section-title-7 text-center wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
 				<div class="sub-title text-uppercase">Our Services</div>
-				<h2>Beyond a coworking
-					space with <span>Proconnect</span>
+				<h2>Beyond the walls of digital fences with <span>Proconnect</span>
 				</h2>
 			</div>
 			<div class="ori-service-content-7 position-relative">
@@ -381,7 +380,7 @@
 	============================================= -->
 	<section id="ori-feature-2" class="ori-feature-section-2 position-relative">
 		<div class="container">
-			<div class="ori-feature-top-content-2 d-flex justify-content-between align-items-center">
+			<div class="ori-feature-top-content-2 d-flex justify-content-center align-items-center">
 				<div class="ori-section-title-2 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
 					<div class="sub-title text-uppercase pera-content">
 						Features
@@ -389,7 +388,7 @@
 					<h2>Grow your website with us<span>.</span></h2>
 				</div>
 				<div class="ori-feature-top-text-2 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
-					Rorem ipsum dolor sit ametconsectetur adipiscing elit,tempor Rorem ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod temporRorem ipsum dolor
+					
 				</div>
 			</div>
 			<div class="ori-feature-content-2">
@@ -663,13 +662,13 @@
 	<section id="ori-testimonial-4" class="ori-testimonial-section-4 position-relative">
 		<div class="dot-line-shape position-absolute"><img src="/img/vector/banner-vector.png" alt=""></div>
 		<div class="ori-testimonial-circle-img position-absolute">
-			<span class="ori-testi-circle-img"><img src="/img/testimonial/tc1.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/testimonial/tc2.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/testimonial/tc3.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/testimonial/tc4.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/testimonial/tc5.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/testimonial/tc6.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/testimonial/tc7.png" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="/img/logo/bs1.png" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="/img/logo/bs2.png" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="/img/logo/bs3.png" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="/img/logo/bs4.png" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="/img/logo/bs5.png" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="/img/logo/bs6.png" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="/img/logo/bs1.png" alt=""></span>
 		</div>
 		<div class="container">
 			<div class="ori-testimonial-content-1 position-relative">
@@ -683,11 +682,12 @@
 					<div class="ori-testimonial-item-area">
 						<div class="ori-testimonial-item-1">
 							<div class="ori-testimonial-text text-center pera-content">
-								<p>“Our office is something we are pleased with. We consider it the little magnet; it is wanting to come here and afterward difficult to leave it. Our office is additionally a big name.”
+								<p>“The services provided by Proconnect met my requirements and expectations. As I am quite meticulous, I can be overly cautious of certain aspects of the processes,
+									 however, I was put at ease with their professional expertise.”
 								</p>
 								<div class="ori-testimonial-author text-center text-uppercase">
-									<h4>Hahimlam Dirat</h4>
-									<span>ui/ux Designer</span>
+									<h4>Brandon Pogen</h4>
+									<span>CEO of Ocean Logi</span>
 								</div>
 							</div>
 						</div>
@@ -695,11 +695,11 @@
 					<div class="ori-testimonial-item-area">
 						<div class="ori-testimonial-item-1">
 							<div class="ori-testimonial-text text-center pera-content">
-								<p>“Our office is something we are pleased with. We consider it the little magnet; it is wanting to come here and afterward difficult to leave it. Our office is additionally a big name.”
+								<p>“They are very accommodating and huge help in growing my website. I give my thanks to their fabulous work. Keep it up.”
 								</p>
 								<div class="ori-testimonial-author text-center text-uppercase">
 									<h4>Hahimlam Dirat</h4>
-									<span>ui/ux Designer</span>
+									<span>CTO of Strategic Solutions</span>
 								</div>
 							</div>
 						</div>
@@ -707,11 +707,11 @@
 					<div class="ori-testimonial-item-area">
 						<div class="ori-testimonial-item-1">
 							<div class="ori-testimonial-text text-center pera-content">
-								<p>“Our office is something we are pleased with. We consider it the little magnet; it is wanting to come here and afterward difficult to leave it. Our office is additionally a big name.”
+								<p>“Excellent designs approaches with plenty creativity. Hope to work with you again in the near future.”
 								</p>
 								<div class="ori-testimonial-author text-center text-uppercase">
-									<h4>Hahimlam Dirat</h4>
-									<span>ui/ux Designer</span>
+									<h4>Shelly Loh</h4>
+									<span>UI/UX Designer</span>
 								</div>
 							</div>
 						</div>
@@ -1008,68 +1008,6 @@
 		</div>
 	</section>	 -->
 <!-- End  of Blog section
-	============================================= -->
-
-<!-- Start of Contact section
-	============================================= -->
-	<section id="ori-seven-contact" class="ori-seven-contact-section position-relative">
-		<span class="ori-seven-contact-bg position-absolute"></span>
-		<div class="container">
-			<div class="ori-seven-contact-content d-flex">
-				<div class="ori-seven-contact-map-info">
-					<div id="ori-seven-map">
-						<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6209.242755903148!2d-77.04363602434464!3d38.90977276948481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1394992895496"  height="365"></iframe>
-					</div> 
-					<div class="ori-seven-contact-info d-flex">
-						<div class="ori-seven-contact-info-item headline pera-content">
-							<h3>Office Address:</h3>
-							<p> 380 St Kilda Road, Melbourne
-							VIC 3004, Australia</p>
-						</div>
-						<div class="ori-seven-contact-info-item headline pera-content">
-							<h3>Phone Number :</h3>
-							<p>+123 (4567) 890 </p>
-							<p>+123 (4567) 799</p>
-						</div>
-						<div class="ori-seven-contact-info-item headline pera-content">
-							<h3>Mail Address:</h3>
-							<p>envato@gmail.com</p>
-							<p>help@support.com</p>
-						</div>
-					</div>
-				</div>
-				<div class="ori-seven-contact-form position-relative">
-					<div class="ori-seven-section-title text-center middle-align headline pera-content">
-						<h2>Contact us</h2>
-						<p>We work with ambitious leaders who want to define the future, not hide from it.</p>
-					</div>
-					<div class="ori-seven-contact-form-wrap headline pera-content">
-						<form action="#">
-							<div class="input-info position-relative">
-								<label class="d-block">Name *</label>
-								<input type="text" placeholder="Write Name...">
-								<i class="fas fa-user"></i>
-							</div>
-							<div class="input-info position-relative">
-								<label class="d-block">Mobile number *</label>
-								<input type="text" placeholder="+88 (___) __ ____">
-								<i class="fas fa-phone-alt"></i>
-							</div>
-							<div class="input-info position-relative">
-								<label class="d-block">Email address *</label>
-								<input type="text" placeholder="envato@gmail.com">
-								<i class="fas fa-envelope"></i>
-							</div>
-							<button type="submit">Let’s Get to Work <i class="far fa-long-arrow-right"></i></button>
-							<p><input type="checkbox">*I have read the <a href="#">Privacy Policy </a> and agree
-							to its terms.</p>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-<!-- End of Contact section
 	============================================= -->
 
 @endsection
