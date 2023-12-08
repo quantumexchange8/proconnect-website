@@ -15,12 +15,12 @@
 
 <!-- Start of Breadcrumbs  section
 	============================================= -->
-	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="/img/bg/bread-bg.png">
+	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="{{ asset('img/bg/bread-bg.png') }}">
 		<div class="container">
 			<div class="ori-breadcrumb-content text-center ul-li">
 				<h1>SEO</h1>
 				<ul>
-					<li><a href="/index">Proconnect</a></li>
+					<li><a href="{{ asset('index') }}">Proconnect</a></li>
 					<li>Services</li>
 					<li>SEO</li>
 				</ul>
@@ -32,7 +32,7 @@
 
 <!-- Start of Service section
 	============================================= -->
-	<section id="ori-service-4" class="ori-service-section-4 position-relative" data-background="/img/bg/ser-bg.png">
+	<section id="ori-service-4" class="ori-service-section-4 position-relative" data-background="{{ asset('img/bg/ser-bg.png') }}">
 		<div class="container">
 			<div class="ori-section-title-4 text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
 				<h2>What<span> We Offer</span></h2>
@@ -42,7 +42,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="/img/icon/ic8.png" alt="">
+								<img src="{{ asset('img/icon/ic8.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Enhanced User Experience</h3>
@@ -53,7 +53,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="/img/icon/ic9.png" alt="">
+								<img src="{{ asset('img/icon/ic9.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Consistent Visuals</h3>
@@ -64,7 +64,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="/img/icon/ic10.png" alt="">
+								<img src="{{ asset('img/icon/ic10.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Mobile Responsiveness</h3>
@@ -75,7 +75,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="/img/icon/ic11.png" alt="">
+								<img src="{{ asset('img/icon/ic11.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Optimized Load Times</h3>
@@ -86,7 +86,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="/img/icon/ic12.png" alt="">
+								<img src="{{ asset('img/icon/ic12.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Scalability</h3>
@@ -97,7 +97,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="/img/icon/ic13.png" alt="">
+								<img src="{{ asset('img/icon/ic13.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Conversion Optimization</h3>

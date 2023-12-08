@@ -3,12 +3,12 @@
 @section('content')
 <!-- Start of Breadcrumbs  section
 	============================================= -->
-	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="/img/bg/bread-bg.png">
+	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="{{ asset('img/bg/bread-bg.png') }}">
 		<div class="container">
 			<div class="ori-breadcrumb-content text-center ul-li">
 				<h1>Contact Us </h1>
 				<ul>
-					<li><a href="/index">proconnect</a></li>
+					<li><a href="{{ asset('index') }}">proconnect</a></li>
 					<li>Contact Us </li>
 				</ul>
 			</div>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="robots" content="noindex, nofollow">
-	<title>Digital Agency </title>
+	<title>Proconnect </title>
 	<!-- <meta name="description" content="Orixy - Digital Agency HTML Template
 	"> -->
 	<!-- <meta name="keywords" content="advertising, advertising agency, agency, agency theme, business, creative agency, digital, digital advertising, digital agency, digital marketing, digital marketing agency, digital theme, marketing, startup">
@@ -15,6 +15,8 @@
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/fontawesome-all.css') }}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+	integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/odometer-theme-default.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/video.min.css') }}">
@@ -38,31 +40,31 @@
 		<div class="ori-header-content-area">
 			<div class="ori-header-content d-flex align-items-center justify-content-between">
 				<div class="brand-logo">
-					<a href="/index"><img src="/img/logo/logo5.png" alt=""></a>
+					<a href="{{ asset('index') }}"><img src="{{ asset('img/logo/logo5.png') }}" alt=""></a>
 				</div>
 				<div class="ori-main-navigation-cta-btn d-flex align-items-center">
 					<div class="ori-main-navigation-area">
 						<nav class="ori-main-navigation clearfix ul-li">
 							<ul id="main-nav" class="nav navbar-nav clearfix">
 								<li class="dropdown ori-megamenu">
-									<a href="/index">Home</a>
+									<a href="{{ asset('index') }}">Home</a>
 								</li>
 								<li class="dropdown">
-									<a href="#">Services</a>
+									<a>Services</a>
 									<ul class="dropdown-menu clearfix">
-										<li><a href="/services/web-design">Web Design</a></li>
-										<li><a href="/services/seo">SEO</a></li>
-										<li><a href="/services/data">Data</a></li>
-										<li><a href="/services/content">Content</a></li>
-										<li><a href="/services/formation">Formation</a></li>
-										<li><a href="/services/design">Design</a></li>
-										<li><a href="/services/media">Media</a></li>
-										<li><a href="/services/social">Social</a></li>
+										<li><a href="{{ asset('services/web-design') }}">Web Design</a></li>
+										<li><a href="{{ asset('services/seo') }}">SEO</a></li>
+										<li><a href="{{ asset('services/data') }}">Data</a></li>
+										<li><a href="{{ asset('services/content') }}">Content</a></li>
+										<li><a href="{{ asset('services/formation') }}">Formation</a></li>
+										<li><a href="{{ asset('services/design') }}">Design</a></li>
+										<li><a href="{{ asset('services/media') }}">Media</a></li>
+										<li><a href="{{ asset('services/social') }}">Social</a></li>
 									</ul>
 								</li>
-								<li><a href="/about">About</a></li>
-								<li><a href="/contact">Contact</a></li>
-								<li><a href="/faq">FAQ</a></li>
+								<li><a href="{{ asset('about') }}">About</a></li>
+								<li><a href="{{ asset('contact') }}">Contact</a></li>
+								<li><a href="{{ asset('faq') }}">FAQ</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -79,27 +81,27 @@
 							<i class="fal fa-times"></i>
 						</div>
 						<div class="m-brand-logo">
-							<a  href="/index"><img src="/img/logo/logo1.png" alt=""></a>
+							<a  href="{{ asset('index') }}"><img src="{{ asset('img/logo/logo1.png') }}" alt=""></a>
 						</div>
 						<nav class="mobile-main-navigation  clearfix ul-li">
 							<ul id="m-main-nav" class="nav navbar-nav clearfix">
-								<li class="ori-megamenu"><a href="/index">Home</a></li>
+								<li class="ori-megamenu"><a href="{{ asset('index') }}">Home</a></li>
 								<li class="dropdown">
 									<a href="#">Services</a>
 									<ul class="dropdown-menu clearfix">
-										<li><a href="/services/web-design">Web Design</a></li>
-										<li><a href="/services/seo">SEO</a></li>
-										<li><a href="/services/data">Data</a></li>
-										<li><a href="/services/content">Content</a></li>
-										<li><a href="/services/formation">Formation</a></li>
-										<li><a href="/services/design">Design</a></li>
-										<li><a href="/services/media">Media</a></li>
-										<li><a href="/services/social">Social</a></li>
+										<li><a href="{{ asset('services/web-design') }}">Web Design</a></li>
+										<li><a href="{{ asset('services/seo') }}">SEO</a></li>
+										<li><a href="{{ asset('services/data') }}">Data</a></li>
+										<li><a href="{{ asset('services/content') }}">Content</a></li>
+										<li><a href="{{ asset('services/formation') }}">Formation</a></li>
+										<li><a href="{{ asset('services/design') }}">Design</a></li>
+										<li><a href="{{ asset('services/media') }}">Media</a></li>
+										<li><a href="{{ asset('services/social') }}">Social</a></li>
 									</ul>
 								</li>
-								<li><a href="/about">About</a></li>
-								<li><a href="/contact">Contact</a></li>
-								<li><a href="/faq">FAQ</a></li>
+								<li><a href="{{ asset('about') }}">About</a></li>
+								<li><a href="{{ asset('contact') }}">Contact</a></li>
+								<li><a href="{{ asset('faq') }}">FAQ</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -122,7 +124,7 @@
 					<div class="ori-footer-cta-text-7 text-center">
 						<h3>Looking expand your business?</h3>
 						<div class="ori-btn-7">
-							<a href="contact.html">Contact With us <i class="far fa-long-arrow-right"></i></a>
+							<a href="/contact">Contact With Us <i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -161,14 +163,14 @@
 				<div class="ori-footer-logo-social d-flex justify-content-between align-items-center">
 					<div class="ori-footer-logo">
 						<div class="brand-logo">
-							<a href="/index"><img src="/img/logo/logo6.png" alt=""></a>
+							<a href="{{ asset('index') }}"><img src="{{ asset('img/logo/logo6.png') }}" alt=""></a>
 						</div>
 					</div>
 					<div class="ori-footer-social">
-						<a href="#"><i class="fab fa-facebook-f"></i></a>
-						<a href="#"><i class="fab fa-twitter"></i></a>
-						<a href="#"><i class="fab fa-instagram"></i></a>
-						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-facebook-f fa-3x"></i></a>
+						<a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+						<a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+						<a href="#"><i class="fab fa-youtube fa-3x"></i></a>
 					</div>
 				</div>
 				<div class="ori-footer-copyright text-center">
@@ -181,31 +183,31 @@
 	============================================= -->			
 
 	<!-- For Js Library -->
-	<script src="/js/jquery.min.js"></script>
-	<script src="/js/jquery-ui.min.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-	<script src="/js/popper.min.js"></script>
-	<script src="/js/appear.js"></script>
-	<script src="/js/slick.js"></script>
-	<script src="/js/twin.js"></script>
-	<script src="/js/wow.min.js"></script>
-	<script src="/js/knob.js"></script>
-	<script src="/js/jquery.filterizr.js"></script>
-	<script src="/js/imagesloaded.pkgd.min.js"></script>
-	<script src="/js/rbtools.min.js"></script>
-	<script src="/js/rs6.min.js"></script>
-	<script src="/js/jarallax.js"></script>
-	<script src="/js/jquery.inputarrow.js"></script>
-	<script src="/js/swiper.min.js"></script>
-	<script src="/js/jquery.counterup.min.js"></script>
-	<script src="/js/waypoints.min.js"></script>
-	<script src="/js/jquery.magnific-popup.min.js"></script>
-	<script src="/js/jquery.marquee.min.js"></script>
-	<script src="/js/script.js"></script>
+	<script src="{{ asset('js/jquery.min.js') }}"></script>
+	<script src="{{ asset('js/jquery-ui.min.js') }}"></script>
+	<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('js/popper.min.js') }}"></script>
+	<script src="{{ asset('js/appear.js') }}"></script>
+	<script src="{{ asset('js/slick.js') }}"></script>
+	<script src="{{ asset('js/twin.js') }}"></script>
+	<script src="{{ asset('js/wow.min.js') }}"></script>
+	<script src="{{ asset('js/knob.js') }}"></script>
+	<script src="{{ asset('js/jquery.filterizr.js') }}"></script>
+	<script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script>
+	<script src="{{ asset('js/rbtools.min.js') }}"></script>
+	<script src="{{ asset('js/rs6.min.js') }}"></script>
+	<script src="{{ asset('js/jarallax.js') }}"></script>
+	<script src="{{ asset('js/jquery.inputarrow.js') }}"></script>
+	<script src="{{ asset('js/swiper.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
+	<script src="{{ asset('js/waypoints.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.marquee.min.js') }}"></script>
+	<script src="{{ asset('js/script.js') }}"></script>
 
 	<script>
 		document.addEventListener("DOMContentLoaded", function() {
-			var currentPageUrl = window.location.pathname;
+			var currentPageUrl = window.location.href;
 
 			// Find the corresponding navigation link and add the 'active' class
 			var navLinks = document.querySelectorAll("#main-nav a");
@@ -217,7 +219,7 @@
 		});
 
 		document.addEventListener("DOMContentLoaded", function() {
-			var currentPageUrl = window.location.pathname;
+			var currentPageUrl = window.location.href;
 			var mobileNavLinks = document.querySelectorAll("#m-main-nav a");
 			mobileNavLinks.forEach(function(link) {
 				if (link.getAttribute("href") === currentPageUrl) {

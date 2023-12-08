@@ -3,12 +3,12 @@
 @section('content')
 <!-- Start of Breadcrumbs  section
 	============================================= -->
-	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="/img/bg/bread-bg.png">
+	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="{{ asset('img/bg/bread-bg.png') }}">
 		<div class="container">
 			<div class="ori-breadcrumb-content text-center ul-li">
 				<h1>About Us</h1>
 				<ul>
-					<li><a href="/index">Proconnect</a></li>
+					<li><a href="{{ asset('index') }}">Proconnect</a></li>
 					<li>About Us</li>
 				</ul>
 			</div>
@@ -33,13 +33,13 @@
 			</div>
 			<div class="ori-about-play-area position-relative">
 				<div class="ori-about-play-img">
-					<img src="/img/about/play-bg.png" alt="">
+					<img src="{{ asset('img/about/play-bg.png') }}" alt="">
 				</div>
 				<div class="about-play-btn position-absolute">
 					<a class="text-uppercase video_box d-flex align-items-center justify-content-center" href="https://www.youtube.com/watch?v=bIoPkZRVll">Play</a>
 				</div>
 			</div>
-			<div class="ori-about-counter-area">
+			<!-- <div class="ori-about-counter-area">
 				<div class="ori-about-counter-item-wrap d-flex justify-content-between">
 					<div class="ori-about-counter-item pera-content">
 						<h3><span class="counter">15</span>+</h3>
@@ -58,7 +58,7 @@
 						<p class="text-uppercase"><span>//</span> HAPPY CLIENTS</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>		
 <!-- End of About Play   section
@@ -74,60 +74,59 @@
 					<h2>Unlock Revenue Growth for Your Business</h2>
 				</div>
 				<div class="ori-circle-progress-btn">
-					<a href="service.html">See Our Service<i class="fal fa-arrow-right"></i></a>
+					<a href="{{ asset('service.html') }}">See Our Service<i class="fal fa-arrow-right"></i></a>
+					<!-- <ul class="clearfix">
+						<li class="dropdown">
+							<a>Services</a>
+							<ul class="dropdown-menu clearfix">
+								<li><a href="{{ asset('services/web-design') }}">Web Design</a></li>
+								<li><a href="{{ asset('services/seo') }}">SEO</a></li>
+								<li><a href="{{ asset('services/data') }}">Data</a></li>
+								<li><a href="{{ asset('services/content') }}">Content</a></li>
+								<li><a href="{{ asset('services/formation') }}">Formation</a></li>
+								<li><a href="{{ asset('services/design') }}">Design</a></li>
+								<li><a href="{{ asset('services/media') }}">Media</a></li>
+								<li><a href="{{ asset('services/social') }}">Social</a></li>
+							</ul>
+						</li>
+					</ul> -->
 				</div>
 			</div>
-			<div class="ori-about-circle-progress-item-wrap d-flex align-items-center justify-content-between">
-				<div class="ori-about-circle-progress-item">
+			<div class="ori-about-circle-progress-item-wrap d-flex align-items-center justify-content-between row">
+				<div class="ori-about-circle-progress-item col-lg-3 col-sm-6">
 					<div class="counter-boxed text-center headline position-relative">
 						<div class="graph-outer">
-							<input type="text" class="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="180" data-height="180" data-linecap="round"  value="85" >
+							<input type="text" class="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="160" data-height="160" data-linecap="round"  value="85" >
 							<div class="inner-text count-box"><span class="count-text" data-stop="85" data-speed="4500"></span>%</div>
 						</div>
 						<h3 class="text-uppercase">fRONTEND</h3>
-						<span class="top"></span>
-						<span class="right"></span>
-						<span class="bottom"></span>
-						<span class="left"></span>
 					</div>
 				</div>
-				<div class="ori-about-circle-progress-item">
+				<div class="ori-about-circle-progress-item col-lg-3 col-sm-6">
 					<div class="counter-boxed text-center headline position-relative">
 						<div class="graph-outer">
-							<input type="text" class="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="180" data-height="180" data-linecap="round"  value="90" >
+							<input type="text" class="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="160" data-height="160" data-linecap="round"  value="90" >
 							<div class="inner-text count-box"><span class="count-text" data-stop="90" data-speed="4500"></span>%</div>
 						</div>
 						<h3 class="text-uppercase">backend</h3>
-						<span class="top"></span>
-						<span class="right"></span>
-						<span class="bottom"></span>
-						<span class="left"></span>
 					</div>
 				</div>
-				<div class="ori-about-circle-progress-item">
+				<div class="ori-about-circle-progress-item col-lg-3 col-sm-6">
 					<div class="counter-boxed text-center headline position-relative">
 						<div class="graph-outer">
-							<input type="text" class="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="180" data-height="180" data-linecap="round"  value="70" >
+							<input type="text" class="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="160" data-height="160" data-linecap="round"  value="70" >
 							<div class="inner-text count-box"><span class="count-text" data-stop="70" data-speed="4500"></span>%</div>
 						</div>
 						<h3 class="text-uppercase">mobile development</h3>
-						<span class="top"></span>
-						<span class="right"></span>
-						<span class="bottom"></span>
-						<span class="left"></span>
 					</div>
 				</div>
-				<div class="ori-about-circle-progress-item">
+				<div class="ori-about-circle-progress-item col-lg-3 col-sm-6">
 					<div class="counter-boxed text-center headline position-relative">
 						<div class="graph-outer">
-							<input type="text" class="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="180" data-height="180" data-linecap="round"  value="92" >
+							<input type="text" class="dial" data-fgColor="#FF7425" data-bgColor="#fff" data-width="160" data-height="160" data-linecap="round"  value="92" >
 							<div class="inner-text count-box"><span class="count-text" data-stop="92" data-speed="4500"></span>%</div>
 						</div>
 						<h3 class="text-uppercase">web development</h3>
-						<span class="top"></span>
-						<span class="right"></span>
-						<span class="bottom"></span>
-						<span class="left"></span>
 					</div>
 				</div>
 			</div>
@@ -145,60 +144,60 @@
 					<div class="ori-section-title-1 text-uppercase">
 						<h2>Meet our team of <span>professional</span></h2>
 					</div>
-					<div class="ori-btn-1 text-uppercase">
-						<a href="team.html">all Team Member</a>
-					</div>
 				</div>
 				<div class="ori-team-content-1">
 					<div class="row">
 						<div class="col-lg-4">
 							<div class="ori-team-inner-item position-relative">
 								<div class="ori-team-img">
-									<img src="/img/team/person-profile-shot-0.jpg" alt="">
+									<!-- <a href="https://www.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_10421502.htm#query=people&position=8&from_view=search&track=sph&uuid=112fab6d-d2a8-4ddb-a7b9-863cb8c85632">Image by wayhomestudio</a> on Freepik -->
+									<img src="{{ asset('img/team/team-member-0.jpg') }}" alt="">
 								</div>
 								<div class="ori-team-text text-center position-absolute">
-									<h3><a href="team-single.html">Alextina Ditarson</a></h3>
+									<h3>Alextina Ditarson</h3>
 									<span>SEO Consultant</span>
 								</div>
 								<div class="ori-team-social text-center position-absolute">
-									<a href="#"><i class="fab fa-facebook-f"></i></a>
-									<a href="#"><i class="fab fa-twitter"></i></a>
-									<a href="#"><i class="fab fa-instagram"></i></a>
-									<a href="#"><i class="fab fa-youtube"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-facebook-f"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-twitter"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-instagram"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-youtube"></i></a>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4">
 							<div class="ori-team-inner-item position-relative">
 								<div class="ori-team-img">
-									<img src="/img/team/person-profile-shot-3.jpg" alt="">
+									<!-- <a href="https://www.freepik.com/free-photo/happy-asian-man-standing-with-arms-crossed-grey-wall_7440380.htm#query=people&position=19&from_view=search&track=sph&uuid=112fab6d-d2a8-4ddb-a7b9-863cb8c85632">Image by drobotdean</a> on Freepik -->
+									<img src="{{ asset('img/team/team-member-1.jpg') }}" alt="">
 								</div>
 								<div class="ori-team-text text-center position-absolute">
-									<h3><a href="team-single.html">Elaine Teltha</a></h3>
+									<h3>Jackson Tang</h3>
 									<span>GRAPHIC DESIGNER</span>
 								</div>
 								<div class="ori-team-social text-center position-absolute">
-									<a href="#"><i class="fab fa-facebook-f"></i></a>
-									<a href="#"><i class="fab fa-twitter"></i></a>
-									<a href="#"><i class="fab fa-instagram"></i></a>
-									<a href="#"><i class="fab fa-youtube"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-facebook-f"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-twitter"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-instagram"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-youtube"></i></a>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4">
 							<div class="ori-team-inner-item position-relative">
 								<div class="ori-team-img">
-									<img src="/img/team/person-profile-shot-2.jpg" alt="">
+									<!-- <a href="https://www.freepik.com/free-photo/positive-asian-man-pointing-finger-aside_4010324.htm#query=people&position=21&from_view=search&track=sph&uuid=112fab6d-d2a8-4ddb-a7b9-863cb8c85632">Image by katemangostar</a> on Freepik -->
+									<img src="{{ asset('img/team/team-member-2.jpg') }}" alt="">
 								</div>
 								<div class="ori-team-text text-center position-absolute">
-									<h3><a href="team-single.html">Greg Yolk</a></h3>
+									<h3>Greg Yolk</h3>
 									<span>Software Programmer</span>
 								</div>
 								<div class="ori-team-social text-center position-absolute">
-									<a href="#"><i class="fab fa-facebook-f"></i></a>
-									<a href="#"><i class="fab fa-twitter"></i></a>
-									<a href="#"><i class="fab fa-instagram"></i></a>
-									<a href="#"><i class="fab fa-youtube"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-facebook-f"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-twitter"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-instagram"></i></a>
+									<a href="{{ asset('#') }}"><i class="fab fa-youtube"></i></a>
 								</div>
 							</div>
 						</div>
@@ -215,42 +214,42 @@
 	<section id="ori-sponsor-1" class="ori-sponsor-section-1 inner-sponsor position-relative">
 		<div class="container">
 			<div class="ori-sponsor-title text-uppercase text-center">
-				<h3><i></i> <span>Trusted by</span><i></i></h3>
+				<h3><i></i> <span>Our Clients</span><i></i></h3>
 			</div>
 			<div class="ori-sponsor-content">
 				<div class="ori-sponsor-slider">
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
-							<a href="#">
-								<img src="/img/logo/lomapro-high-resolution-logo-black-transparent.png" alt="">
+							<a href="{{ asset('#') }}">
+								<img src="{{ asset('img/logo/lomapro-high-resolution-logo-black-transparent.png') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/logo/ocean-logi-high-resolution-logo-black-transparent.png" alt="">
+								<img src="{{ asset('img/logo/ocean-logi-high-resolution-logo-black-transparent.png') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/logo/quagotech-high-resolution-logo-black-transparent.png" alt="">
+								<img src="{{ asset('img/logo/quagotech-high-resolution-logo-black-transparent.png') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/logo/penapcer-high-resolution-logo-black-transparent.png" alt="">
+								<img src="{{ asset('img/logo/penapcer-high-resolution-logo-black-transparent.png') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/logo/strategic-solutions-high-resolution-logo-black-transparent.png" alt="">
+								<img src="{{ asset('img/logo/strategic-solutions-high-resolution-logo-black-transparent.png') }}" alt="">
 							</a>
 						</div>
 					</div>

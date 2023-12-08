@@ -3,13 +3,13 @@
 @section('content')
 <!-- Start of Breadcrumbs  section
 	============================================= -->
-	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="/img/bg/bread-bg.png">
+	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="{{ asset('img/bg/bread-bg.png') }}">
 		<div class="container">
 			<div class="ori-breadcrumb-content text-center ul-li">
-				<h1>Faq</h1>
+				<h1>FAQ</h1>
 				<ul>
-					<li><a href="/index">Proconnect</a></li>
-					<li>Faq</li>
+					<li><a href="{{ asset('index') }}">Proconnect</a></li>
+					<li>FAQ</li>
 				</ul>
 			</div>
 		</div>
@@ -347,42 +347,42 @@
 	<section id="ori-sponsor-1" class="ori-sponsor-section-1 inner-sponsor position-relative">
 		<div class="container">
 			<div class="ori-sponsor-title text-uppercase text-center">
-				<h3><i></i> <span>Trusted by</span><i></i></h3>
+				<h3><i></i> <span>Our Clients</span><i></i></h3>
 			</div>
 			<div class="ori-sponsor-content">
 				<div class="ori-sponsor-slider">
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/logo/penapcer-high-resolution-logo-black-transparent.png" alt="">
+								<img src="{{ asset('img/logo/penapcer-high-resolution-logo-black-transparent.png') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/logo/ocean-logi-high-resolution-logo-black-transparent.png" alt="">
+								<img src="{{ asset('img/logo/ocean-logi-high-resolution-logo-black-transparent.png') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/logo/quagotech-high-resolution-logo-black-transparent.png" alt="">
+								<img src="{{ asset('img/logo/quagotech-high-resolution-logo-black-transparent.png') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/logo/lomapro-high-resolution-logo-black-transparent.png" alt="">
+								<img src="{{ asset('img/logo/lomapro-high-resolution-logo-black-transparent.png') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<a href="#">
-								<img src="/img/logo/strategic-solutions-high-resolution-logo-black-transparent.png" alt="">
+								<img src="{{ asset('img/logo/strategic-solutions-high-resolution-logo-black-transparent.png') }}" alt="">
 							</a>
 						</div>
 					</div>

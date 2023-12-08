@@ -3,15 +3,15 @@
 @section('content')
 <!-- Start of banner section
 	============================================= -->
-	<section id="ori-banner-4" class="ori-banner-section-4 position-relative" data-background="/img/bg/banner-bg.png">
-		<span class="line-shape position-absolute"><img src="/img/vector/banner-vector.png" alt=""></span>
+	<section id="ori-banner-4" class="ori-banner-section-4 position-relative" data-background="{{ asset('img/bg/banner-bg.png') }}">
+		<span class="line-shape position-absolute"><img src="{{ asset('img/vector/banner-vector.png') }}" alt=""></span>
 		<div class="ori-banner-content-4 position-relative">
-			<span class="banner-social position-absolute"><img src="/img/logo/bs1.png" alt=""></span>
-			<span class="banner-social position-absolute"><img src="/img/logo/bs2.png" alt=""></span>
-			<span class="banner-social position-absolute"><img src="/img/logo/bs3.png" alt=""></span>
-			<span class="banner-social position-absolute"><img src="/img/logo/bs4.png" alt=""></span>
-			<span class="banner-social position-absolute"><img src="/img/logo/bs5.png" alt=""></span>
-			<span class="banner-social position-absolute"><img src="/img/logo/bs6.png" alt=""></span>
+			<span class="banner-social position-absolute"><img src="{{ asset('img/logo/bs1.png') }}" alt=""></span>
+			<span class="banner-social position-absolute"><img src="{{ asset('img/logo/bs2.png') }}" alt=""></span>
+			<span class="banner-social position-absolute"><img src="{{ asset('img/logo/bs3.png') }}" alt=""></span>
+			<span class="banner-social position-absolute"><img src="{{ asset('img/logo/bs4.png') }}" alt=""></span>
+			<span class="banner-social position-absolute"><img src="{{ asset('img/logo/bs5.png') }}" alt=""></span>
+			<span class="banner-social position-absolute"><img src="{{ asset('img/logo/bs6.png') }}" alt=""></span>
 			<div class="ori-banner-text-area pera-content text-center">
 				<h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Navigating Success, <br>Digitally Crafted, <br>Distinctly Yours.</h1>
 				<p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Delivering an optimal return on investment for your customized SEO campaign.</p>
@@ -36,27 +36,27 @@
 				<div class="ori-sponsor-slider-7">
 					<div class="ori-sponsor-img">
 						<div class="inner-img">
-							<img src="/img/logo/lomapro-high-resolution-logo-black-transparent.png" alt="">
+							<img src="{{ asset('img/logo/lomapro-high-resolution-logo-black-transparent.png') }}" alt="">
 						</div>
 					</div>
 					<div class="ori-sponsor-img">
 						<div class="inner-img">
-							<img src="/img/logo/ocean-logi-high-resolution-logo-black-transparent.png" alt="">
+							<img src="{{ asset('img/logo/ocean-logi-high-resolution-logo-black-transparent.png') }}" alt="">
 						</div>
 					</div>
 					<div class="ori-sponsor-img">
 						<div class="inner-img">
-							<img src="/img/logo/penapcer-high-resolution-logo-black-transparent.png" alt="">
+							<img src="{{ asset('img/logo/penapcer-high-resolution-logo-black-transparent.png') }}" alt="">
 						</div>
 					</div>
 					<div class="ori-sponsor-img">
 						<div class="inner-img">
-							<img src="/img/logo/quagotech-high-resolution-logo-black-transparent.png" alt="">
+							<img src="{{ asset('img/logo/quagotech-high-resolution-logo-black-transparent.png') }}" alt="">
 						</div>
 					</div>
 					<div class="ori-sponsor-img">
 						<div class="inner-img">
-							<img src="/img/logo/strategic-solutions-high-resolution-logo-black-transparent.png" alt="">
+							<img src="{{ asset('img/logo/strategic-solutions-high-resolution-logo-black-transparent.png') }}" alt="">
 						</div>
 					</div>
 				</div>
@@ -129,13 +129,13 @@
 					<div class="col-lg-5">
 						<div class="ori-about-img-item-wrap position-relative wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
 							<div class="ori-about-inner-img1">
-								<img src="/img/team/person-profile-shot-2.jpg" alt="">
+								<img src="{{ asset('img/team/person-profile-shot-2.jpg') }}" alt="">
 							</div>
 							<div class="ori-about-inner-img2">
-								<img src="/img/team/person-profile-shot-3.jpg" alt="">
+								<img src="{{ asset('img/team/person-profile-shot-3.jpg') }}" alt="">
 							</div>
 							<div class="ori-about-shape-circle">
-								<img src="/img/about/abs-cir.png" alt="">
+								<img src="{{ asset('img/about/abs-cir.png') }}" alt="">
 							</div>
 						</div>
 					</div>
@@ -151,7 +151,7 @@
 								<p>We craft and deliver engaging web experiences, generate organic web traffic through advanced and technical SEO, and leverage data for guided decisions.</p>
 								<p>Join us for an innovative and successful journey into the digital era, from design solutions to strategic brand formation.</p>
 								<div class="ori-btn-7">
-									<a href="contact.html">Contact us</a>
+									<a href="{{ asset('contact') }}">Contact us</a>
 								</div>
 							</div>
 						</div>
@@ -182,11 +182,11 @@
 									<i class="fal fa-pencil-ruler"></i>
 								</div>
 								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Web design</a></h3>
+									<h3><a href="{{ asset('services/web-design') }}">Web design</a></h3>
 									<p>Create aesthetically pleasing, easily navigable websites that improve user experience and online presence while forging a distinctive online identity.</p>
 								</div>
 							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
+							<a class="read-more text-uppercase" href="{{ asset('services/web-design') }}"><img src="{{ asset('img/vector/arrow-2.png') }}" alt=""> <span>Read More</span></a>
 						</div>
 					</div>
 					<div class="ori-service-item-7 position-relative">
@@ -197,11 +197,11 @@
 									<i class="fal fa-computer-speaker"></i>
 								</div>
 								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">SEO</a></h3>
+									<h3><a href="{{ asset('services/seo') }}">SEO</a></h3>
 									<p>Make sure your brand reaches and connects with the target audience by optimizing online content using cutting-edge techniques to increase search engine visibility.</p>
 								</div>
 							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
+							<a class="read-more text-uppercase" href="{{ asset('services/seo') }}"><img src="{{ asset('img/vector/arrow-2.png') }}" alt=""> <span>Read More</span></a>
 						</div>
 					</div>
 					<div class="ori-service-item-7 position-relative">
@@ -212,11 +212,11 @@
 									<i class="fal fa-briefcase"></i>
 								</div>
 								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Data</a></h3>
+									<h3><a href="{{ asset('services/data') }}">Data</a></h3>
 									<p>Using data analytics, you can make well-informed decisions for successful digital strategies by providing actionable insights into user behavior.</p>
 								</div>
 							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
+							<a class="read-more text-uppercase" href="{{ asset('services/data') }}"><img src="{{ asset('img/vector/arrow-2.png') }}" alt=""> <span>Read More</span></a>
 						</div>
 					</div>
 					<div class="ori-service-item-7 position-relative">
@@ -227,11 +227,11 @@
 									<i class="fal fa-mouse-pointer"></i>
 								</div>
 								<div class="ori-service-text pera-content">
-									<h3><a href="#">Content</a></h3>
+									<h3><a href="{{ asset('services/content') }}">Content</a></h3>
 									<p>To improve brand authority and establish a connection with the target audience, create compelling content that is suited for a variety of platforms.</p>
 								</div>
 							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
+							<a class="read-more text-uppercase" href="{{ asset('services/content') }}"><img src="{{ asset('img/vector/arrow-2.png') }}" alt=""> <span>Read More</span></a>
 						</div>
 					</div>
 					<div class="ori-service-item-7 position-relative">
@@ -242,11 +242,11 @@
 									<i class="fal fa-pencil-ruler"></i>
 								</div>
 								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Formation</a></h3>
+									<h3><a href="{{ asset('formation') }}">Formation</a></h3>
 									<p>Lead the way in developing a strong online foundation that is in line with business objectives through strategic planning and brand identity creation.</p>
 								</div>
 							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
+							<a class="read-more text-uppercase" href="{{ asset('services/formation') }}"><img src="{{ asset('img/vector/arrow-2.png') }}" alt=""> <span>Read More</span></a>
 						</div>
 					</div>
 					<div class="ori-service-item-7 position-relative">
@@ -257,11 +257,11 @@
 									<i class="fal fa-pencil-ruler"></i>
 								</div>
 								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Design</a></h3>
+									<h3><a href="{{ asset('services/design') }}">Design</a></h3>
 									<p>Provide all-inclusive design options that uphold the brand's ethos and create a unified visual identity across digital platforms.</p>
 								</div>
 							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
+							<a class="read-more text-uppercase" href="{{ asset('services/design') }}"><img src="{{ asset('img/vector/arrow-2.png') }}" alt=""> <span>Read More</span></a>
 						</div>
 					</div>
 					<div class="ori-service-item-7 position-relative">
@@ -272,11 +272,11 @@
 									<i class="fal fa-pencil-ruler"></i>
 								</div>
 								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Media</a></h3>
+									<h3><a href="{{ asset('services/media') }}">Media</a></h3>
 									<p>Make the most of your digital media presence by utilizing professional Buying and Planning services to reach and interact with your target audience to the fullest.</p>
 								</div>
 							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
+							<a class="read-more text-uppercase" href="{{ asset('services/media') }}"><img src="{{ asset('img/vector/arrow-2.png') }}" alt=""> <span>Read More</span></a>
 						</div>
 					</div>
 					<div class="ori-service-item-7 position-relative">
@@ -287,11 +287,11 @@
 									<i class="fal fa-pencil-ruler"></i>
 								</div>
 								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Social</a></h3>
+									<h3><a href="{{ asset('services/social') }}">Social</a></h3>
 									<p>Use skillfully designed social media strategies that establish a personal connection with the audience to drive meaningful interactions, brand loyalty, and conversions.</p>
 								</div>
 							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
+							<a class="read-more text-uppercase" href="{{ asset('social') }}"><img src="{{ asset('img/vector/arrow-2.png') }}" alt=""> <span>Read More</span></a>
 						</div>
 					</div>
 				</div>
@@ -314,48 +314,40 @@
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-fun-fact-item">
 							<div class="ori-fun-fact-icon">
-								<i class="fal fa-user"></i>
+								<i class="fal fa-rocket"></i>
 							</div>
 							<div class="ori-fun-fact-text pera-content">
 								<h3><span class="counter">2420</span>+ Users</h3>
-								<!-- <p>Rorem ipsum dolor sit ametcon of this 
-								adipiscing elit, tempor</p> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-fun-fact-item">
 							<div class="ori-fun-fact-icon">
-								<i class="fal fa-star"></i>
+								<i class="fa-regular fa-arrow-trend-up"></i>
 							</div>
 							<div class="ori-fun-fact-text pera-content">
 								<h3><span class="counter">349</span>+ Rating</h3>
-								<!-- <p>Rorem ipsum dolor sit ametcon of this 
-								adipiscing elit, tempor</p> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-fun-fact-item">
 							<div class="ori-fun-fact-icon">
-								<i class="fal fa-download"></i>
+								<i class="fa-light fa-file-pen"></i>
 							</div>
 							<div class="ori-fun-fact-text pera-content">
 								<h3><span class="counter">580</span>+ Download</h3>
-								<!-- <p>Rorem ipsum dolor sit ametcon of this 
-								adipiscing elit, tempor</p> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-fun-fact-item">
 							<div class="ori-fun-fact-icon">
-								<i class="fal fa-heart"></i>
+								<i class="fa-light fa-handshake"></i>
 							</div>
 							<div class="ori-fun-fact-text pera-content">
 								<h3><span class="counter">970</span>+ Like</h3>
-								<!-- <p>Rorem ipsum dolor sit ametcon of this 
-								adipiscing elit, tempor</p> -->
 							</div>
 						</div>
 					</div>
@@ -370,23 +362,17 @@
 	============================================= -->
 	<section id="ori-feature-2" class="ori-feature-section-2 position-relative">
 		<div class="container">
-			<div class="ori-feature-top-content-2 d-flex justify-content-center align-items-center">
-				<div class="ori-section-title-2 wow fadeInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
-					<div class="sub-title text-uppercase pera-content">
-						Features
-					</div>
-					<h2>Grow your website with us<span>.</span></h2>
-				</div>
-				<div class="ori-feature-top-text-2 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
-					
-				</div>
+			<div class="ori-section-title-7 text-center wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+				<div class="sub-title text-uppercase">Our Features</div>
+				<h2>Grow your website with <span>Proconnect</span>
+				</h2>
 			</div>
 			<div class="ori-feature-content-2">
 				<div class="row justify-content-center">
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
 						<div class="ori-feature-item-2">
 							<div class="ori-feature-icon-2">
-								<img src="/img/icon/global-network_3601336.png" alt="">
+								<img src="{{ asset('img/icon/global-network_3601336.png') }}" alt="">
 							</div>
 							<div class="ori-feature-text-2 pera-content">
 								<h4>Ignite Your Presence</h4>
@@ -396,7 +382,7 @@
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
 						<div class="ori-feature-item-2">
 							<div class="ori-feature-icon-2">
-								<img src="/img/icon/seo-web_4179708.png" alt="">
+								<img src="{{ asset('img/icon/seo-web_4179708.png') }}" alt="">
 							</div>
 							<div class="ori-feature-text-2 pera-content">
 								<h4>Dominate Search Engines</h4>
@@ -406,7 +392,7 @@
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
 						<div class="ori-feature-item-2">
 							<div class="ori-feature-icon-2">
-								<img src="/img/icon/management_9404768.png" alt="">
+								<img src="{{ asset('img/icon/management_9404768.png') }}" alt="">
 							</div>
 							<div class="ori-feature-text-2 pera-content">
 								<h4>Data-Driven Excellence</h4>
@@ -416,7 +402,7 @@
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
 						<div class="ori-feature-item-2">
 							<div class="ori-feature-icon-2">
-								<img src="/img/icon/blogging_314145.png" alt="">
+								<img src="{{ asset('img/icon/blogging_314145.png') }}" alt="">
 							</div>
 							<div class="ori-feature-text-2 pera-content">
 								<h4>Compelling Content Creation</h4>
@@ -426,7 +412,7 @@
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
 						<div class="ori-feature-item-2">
 							<div class="ori-feature-icon-2">
-								<img src="/img/icon/politics_8088898.png" alt="">
+								<img src="{{ asset('img/icon/politics_8088898.png') }}" alt="">
 							</div>
 							<div class="ori-feature-text-2 pera-content">
 								<h4>Form a Robust Foundation</h4>
@@ -436,7 +422,7 @@
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
 						<div class="ori-feature-item-2">
 							<div class="ori-feature-icon-2">
-								<img src="/img/icon/compatibility_5796511.png" alt="">
+								<img src="{{ asset('img/icon/compatibility_5796511.png') }}" alt="">
 							</div>
 							<div class="ori-feature-text-2 pera-content">
 								<h4>Cohesive Design Solutions</h4>
@@ -446,7 +432,7 @@
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
 						<div class="ori-feature-item-2">
 							<div class="ori-feature-icon-2">
-								<img src="/img/icon/podcast_6668102.png" alt="">
+								<img src="{{ asset('img/icon/podcast_6668102.png') }}" alt="">
 							</div>
 							<div class="ori-feature-text-2 pera-content">
 								<h4>Strategic Media Presence</h4>
@@ -456,7 +442,7 @@
 					<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
 						<div class="ori-feature-item-2">
 							<div class="ori-feature-icon-2">
-								<img src="/img/icon/target_6148258.png" alt="">
+								<img src="{{ asset('img/icon/target_6148258.png') }}" alt="">
 							</div>
 							<div class="ori-feature-text-2 pera-content">
 								<h4>Socialize with Purpose</h4>
@@ -468,126 +454,6 @@
 		</div>
 	</section>				
 <!-- End of Feature section
-	============================================= -->
-
-<!-- Start of counter project section
-	============================================= -->
-	<!-- <section id="ori-counter-project" class="ori-counter-project-section">
-		<div class="container">
-			<div class="ori-counter-project-content">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="ori-counter-content-7">
-							<div class="ori-section-title-7 pera-content">
-								<div class="sub-title text-uppercase">Our Successful Work</div>
-								<h2>
-									Elevating businesses with proficient digital marketing and advertising <span>Pro</span>
-								</h2>
-								<p></p>
-							</div>
-							<div class="ori-counter-content-item-7 position-relative">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="ori-counter-item-7 text-center">
-											<h3><span class="counter">12</span>k<sup>+</sup></h3>
-											<p>Completed Project</p>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="ori-counter-item-7 text-center">
-											<h3><span class="counter">500</span><sup>+</sup></h3>
-											<p>Team Worker</p>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="ori-counter-item-7 text-center">
-											<h3><span class="counter">06</span><sup>+</sup></h3>
-											<p>Year Of Experience</p>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="ori-counter-item-7 text-center">
-											<h3><span class="counter">500</span>k<sup>+</sup></h3>
-											<p>Satisfied Clients</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="ori-project-slider-area-7 position-relative">
-							<div class="ori-project-slider-7">
-								<div class="ori-project-slider-item-7">
-									<div class="ori-project-slider-item-area position-relative">
-										<div class="ori-project-img">
-											<img src="/img/project/pro1.jpg" alt="">
-										</div>
-										<div class="ori-project-text">
-											<h3><a href="#">Digital Consulting</a></h3>
-											<span><a href="#">GMG Group LTD</a></span>
-											<div class="ori-project-btn d-flex align-items-center justify-content-center position-absolute">
-												<a href="#"><i class="far fa-plus"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="ori-project-slider-item-7">
-									<div class="ori-project-slider-item-area position-relative">
-										<div class="ori-project-img">
-											<img src="/img/project/pro1.jpg" alt="">
-										</div>
-										<div class="ori-project-text">
-											<h3><a href="#">Digital Consulting</a></h3>
-											<span><a href="#">GMG Group LTD</a></span>
-											<div class="ori-project-btn d-flex align-items-center justify-content-center position-absolute">
-												<a href="#"><i class="far fa-plus"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="ori-project-slider-item-7">
-									<div class="ori-project-slider-item-area position-relative">
-										<div class="ori-project-img">
-											<img src="/img/project/pro1.jpg" alt="">
-										</div>
-										<div class="ori-project-text">
-											<h3><a href="#">Digital Consulting</a></h3>
-											<span><a href="#">GMG Group LTD</a></span>
-											<div class="ori-project-btn d-flex align-items-center justify-content-center position-absolute">
-												<a href="#"><i class="far fa-plus"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="ori-project-slider-item-7">
-									<div class="ori-project-slider-item-area position-relative">
-										<div class="ori-project-img">
-											<img src="/img/project/pro1.jpg" alt="">
-										</div>
-										<div class="ori-project-text">
-											<h3><a href="#">Digital Consulting</a></h3>
-											<span><a href="#">GMG Group LTD</a></span>
-											<div class="ori-project-btn d-flex align-items-center justify-content-center position-absolute">
-												<a href="#"><i class="far fa-plus"></i></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="ori-seven-project-carousel">
-								<div class="carousel_nav">
-									<button type="button" class="pro7-left_arrow"><i class="far fa-long-arrow-left"></i></button>
-									<button type="button" class="pro7-right_arrow"><i class="far fa-long-arrow-right"></i></button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>				 -->
-<!-- End of counter project section
 	============================================= -->
 
 <!-- Start of How Help section
@@ -603,7 +469,7 @@
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-dm-how-help-item text-center">
 							<div class="how-help-icon d-flex align-items-center justify-content-center">
-								<img src="/img/icon/ic14.png" alt="">
+								<img src="{{ asset('img/icon/ic14.png') }}" alt="">
 							</div>
 							<div class="how-help-text">
 								<h3>Provides Compelling Contents</h3>
@@ -613,7 +479,7 @@
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-dm-how-help-item text-center">
 							<div class="how-help-icon d-flex align-items-center justify-content-center">
-								<img src="/img/icon/ic15.png" alt="">
+								<img src="{{ asset('img/icon/ic15.png') }}" alt="">
 							</div>
 							<div class="how-help-text">
 								<h3>Improve User Experience</h3>
@@ -623,7 +489,7 @@
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-dm-how-help-item text-center">
 							<div class="how-help-icon d-flex align-items-center justify-content-center">
-								<img src="/img/icon/ic16.png" alt="">
+								<img src="{{ asset('img/icon/ic16.png') }}" alt="">
 							</div>
 							<div class="how-help-text">
 								<h3>Aesthetically Pleasing Designs</h3>
@@ -633,7 +499,7 @@
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-dm-how-help-item text-center">
 							<div class="how-help-icon d-flex align-items-center justify-content-center">
-								<img src="/img/icon/ic17.png" alt="">
+								<img src="{{ asset('img/icon/ic17.png') }}" alt="">
 							</div>
 							<div class="how-help-text">
 								<h3>Improve your SEO Rankings</h3>
@@ -650,20 +516,20 @@
 <!-- Start of Testimonial section
 	============================================= -->
 	<section id="ori-testimonial-4" class="ori-testimonial-section-4 position-relative">
-		<div class="dot-line-shape position-absolute"><img src="/img/vector/banner-vector.png" alt=""></div>
+		<div class="dot-line-shape position-absolute"><img src="{{ asset('img/vector/banner-vector.png') }}" alt=""></div>
 		<div class="ori-testimonial-circle-img position-absolute">
-			<span class="ori-testi-circle-img"><img src="/img/logo/bs1.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/logo/bs2.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/logo/bs3.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/logo/bs4.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/logo/bs5.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/logo/bs6.png" alt=""></span>
-			<span class="ori-testi-circle-img"><img src="/img/logo/bs1.png" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="{{ asset('img/logo/bs1.png') }}" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="{{ asset('img/logo/bs2.png') }}" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="{{ asset('img/logo/bs3.png') }}" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="{{ asset('img/logo/bs4.png') }}" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="{{ asset('img/logo/bs5.png') }}" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="{{ asset('img/logo/bs6.png') }}" alt=""></span>
+			<span class="ori-testi-circle-img"><img src="{{ asset('img/logo/bs1.png') }}" alt=""></span>
 		</div>
 		<div class="container">
 			<div class="ori-testimonial-content-1 position-relative">
 				<div class="ori-vector-bg position-absolute">
-					<img src="/img/vector/tst-vector1.png" alt="">
+					<img src="{{ asset('img/vector/tst-vector1.png') }}" alt="">
 				</div>
 				<div class="ori-testimonial-title text-center text-uppercase">
 					<h3>What our Client say</h3>
@@ -708,8 +574,8 @@
 					</div>
 				</div>
 				<div class="carousel_nav">
-					<button type="button" class="testi-left_arrow"><img src="/img/vector/prev3.png" alt=""></button>
-					<button type="button" class="testi-right_arrow"><img src="/img/vector/next3.png" alt=""></button>
+					<button type="button" class="testi-left_arrow"><img src="{{ asset('img/vector/prev3.png') }}" alt=""></button>
+					<button type="button" class="testi-right_arrow"><img src="{{ asset('img/vector/next3.png') }}" alt=""></button>
 				</div>
 			</div>
 		</div>
@@ -726,7 +592,7 @@
 				<div class="ori-get-started-step">
 					<div class="row">
 						<div class="col-lg-3 col-md-6">
-							<div class="ori-get-started-item d-flex">
+							<div class="ori-get-started-item d-flex justify-content-center">
 								<div class="get-start-icon">
 									<i class="fas fa-check-circle"></i>
 								</div>
@@ -736,17 +602,17 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
-							<div class="ori-get-started-item d-flex">
+							<div class="ori-get-started-item d-flex justify-content-center">
 								<div class="get-start-icon">
 									<i class="fas fa-check-circle"></i>
 								</div>
 								<div class="get-start-text">
-									Free sign up and no additional fee.
+									Free quotation and no additional fee.
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
-							<div class="ori-get-started-item d-flex">
+							<div class="ori-get-started-item d-flex justify-content-center">
 								<div class="get-start-icon">
 									<i class="fas fa-check-circle"></i>
 								</div>
@@ -756,7 +622,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
-							<div class="ori-get-started-item d-flex">
+							<div class="ori-get-started-item d-flex justify-content-center">
 								<div class="get-start-icon">
 									<i class="fas fa-check-circle"></i>
 								</div>
@@ -771,233 +637,6 @@
 		</div>
 	</section>				
 <!-- End of Get Started section
-	============================================= -->
-
-<!-- Start of blog section
-	============================================= -->
-	<!-- <section id="ori-blog-7" class="ori-blog-section-7">
-		<div class="container">
-			<div class="container">
-				<div class="ori-seven-blog-top-content d-flex align-items-center justify-content-between">
-					<div class="ori-section-title-7">
-						<div class="sub-title text-uppercase">Blog</div>
-						<h2><span>Latest </span> Blogs & Articles</h2>
-					</div>
-					<div class="ori-seven-blog-top-text">
-						Dedication to adopting the latest technological solutions enables us to understand the needs of entrepreneurs and corporations whose core business.
-					</div>
-				</div>
-				<div class="ori-seven-blog-content">
-					<div class="ori-seven-blog-slider">
-						<div class="ori-seven-blog-item-area position-relative">
-							<span class="ori-seven-blog-shape position-absolute"><img src="/img/blog/sh1.png" alt=""></span>
-							<div class="ori-seven-blog-item position-relative">
-								<div class="ori-seven-blog-img position-absolute"><img src="/img/blog/blg7.1.png" alt=""></div>
-								<div class="ori-seven-blog-text  position-relative">
-									<span class="blog-cat"><a href="#"> Software</a></span>
-									<h3><a href="blog-single.html">No need to talk with a
-									sales person</a></h3>
-									<div class="blog-meta">
-										<a href="#">by Admin</a>
-										<a href="#">25th Octobar, 22</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="ori-seven-blog-item-area position-relative">
-							<span class="ori-seven-blog-shape position-absolute"><img src="/img/blog/sh1.png" alt=""></span>
-							<div class="ori-seven-blog-item position-relative">
-								<div class="ori-seven-blog-img position-absolute"><img src="/img/blog/blg7.1.png" alt=""></div>
-								<div class="ori-seven-blog-text  position-relative">
-									<span class="blog-cat"><a href="#"> Software</a></span>
-									<h3><a href="blog-single.html">No need to talk with a
-									sales person</a></h3>
-									<div class="blog-meta">
-										<a href="#">by Admin</a>
-										<a href="#">25th Octobar, 22</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="ori-seven-blog-item-area position-relative">
-							<span class="ori-seven-blog-shape position-absolute"><img src="/img/blog/sh1.png" alt=""></span>
-							<div class="ori-seven-blog-item position-relative">
-								<div class="ori-seven-blog-img position-absolute"><img src="/img/blog/blg7.1.png" alt=""></div>
-								<div class="ori-seven-blog-text  position-relative">
-									<span class="blog-cat"><a href="#"> Software</a></span>
-									<h3><a href="blog-single.html">No need to talk with a
-									sales person</a></h3>
-									<div class="blog-meta">
-										<a href="#">by Admin</a>
-										<a href="#">25th Octobar, 22</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="ori-seven-blog-item-area position-relative">
-							<span class="ori-seven-blog-shape position-absolute"><img src="/img/blog/sh1.png" alt=""></span>
-							<div class="ori-seven-blog-item position-relative">
-								<div class="ori-seven-blog-img position-absolute"><img src="/img/blog/blg7.1.png" alt=""></div>
-								<div class="ori-seven-blog-text  position-relative">
-									<span class="blog-cat"><a href="#"> Software</a></span>
-									<h3><a href="blog-single.html">No need to talk with a
-									sales person</a></h3>
-									<div class="blog-meta">
-										<a href="#">by Admin</a>
-										<a href="#">25th Octobar, 22</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-						<span class="slider__label sr-only">
-						</span>
-					</div>
-					<div class="ori-seven-blog-carousel-pagination">
-						<div class="carousel_nav text-right ">
-							<button type="button" class="blg-left_arrow"><i class="far fa-long-arrow-left"></i></button>
-							<button type="button" class="blg-right_arrow"><i class="far fa-long-arrow-right"></i></button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- <section id="ori-service-4" class="ori-service-section-4 position-relative" data-background="/img/bg/ser-bg.png">
-		<div class="container">
-			<div class="ori-section-title-4 text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-				<h2>What<span> We Offer</span></h2>
-			</div>
-			<div class="ori-serviec-content-4">
-				<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-						<div class="ori-service-item-4">
-							<div class="row">
-								<div class="ori-service-icon d-flex justify-content-center align-items-center">
-									<img src="/img/icon/ic8.png" alt="">
-								</div>
-								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">SEO</a></h3>
-									<p>Make sure your brand reaches and connects with the target audience by optimizing online content using cutting-edge techniques to increase search engine visibility.</p>
-								</div>
-							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-						<div class="ori-service-item-4">
-							<div class="row">
-								<div class="ori-service-icon d-flex justify-content-center align-items-center">
-									<img src="/img/icon/ic9.png" alt="">
-								</div>
-								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Media</a></h3>
-									<p>Make the most of your digital media presence by utilizing professional Buying and Planning services to reach and interact with your target audience to the fullest.</p>
-								</div>
-							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
-						<div class="ori-service-item-4">
-							<div class="row">
-								<div class="ori-service-icon d-flex justify-content-center align-items-center">
-									<img src="/img/icon/ic10.png" alt="">
-								</div>
-								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Web Design</a></h3>
-									<p>Create aesthetically pleasing, easily navigable websites that improve user experience and online presence while forging a distinctive online identity.</p>
-								</div>
-							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
-						<div class="ori-service-item-4">
-							<div class="row">
-								<div class="ori-service-icon d-flex justify-content-center align-items-center">
-									<img src="/img/icon/ic11.png" alt="">
-								</div>
-								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Data</a></h3>
-									<p>Using data analytics, you can make well-informed decisions for successful digital strategies by providing actionable insights into user behavior.</p>
-								</div>
-							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms" data-wow-duration="1000ms">
-						<div class="ori-service-item-4">
-							<div class="row">
-								<div class="ori-service-icon d-flex justify-content-center align-items-center">
-									<img src="/img/icon/ic12.png" alt="">
-								</div>
-								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Content</a></h3>
-									<p>To improve brand authority and establish a connection with the target audience, create compelling content that is suited for a variety of platforms.</p>
-								</div>
-							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
-						<div class="ori-service-item-4">
-							<div class="row">
-								<div class="ori-service-icon d-flex justify-content-center align-items-center">
-									<img src="/img/icon/ic13.png" alt="">
-								</div>
-								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Formation</a></h3>
-									<p>Lead the way in developing a strong online foundation that is in line with business objectives through strategic planning and brand identity creation.</p>
-								</div>
-							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
-						<div class="ori-service-item-4">
-							<div class="row">
-								<div class="ori-service-icon d-flex justify-content-center align-items-center">
-									<img src="/img/icon/ic13.png" alt="">
-								</div>
-								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Design</a></h3>
-									<p>Provide all-inclusive design options that uphold the brand's ethos and create a unified visual identity across digital platforms.</p>
-								</div>
-							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
-						<div class="ori-service-item-4">
-							<div class="row">
-								<div class="ori-service-icon d-flex justify-content-center align-items-center">
-									<img src="/img/icon/ic13.png" alt="">
-								</div>
-								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Social</a></h3>
-									<p>Use skillfully designed social media strategies that establish a personal connection with the audience to drive meaningful interactions, brand loyalty, and conversions.</p>
-								</div>
-							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
-						<div class="ori-service-item-4" style="justify-content: flex-end;">
-							<div class="row">
-								<div class="ori-service-text pera-content">
-									<h3><a href="service-single.html">Check out our services</a></h3>
-								</div>
-							</div>
-							<a class="read-more text-uppercase" href="service-single.html"><img src="/img/vector/arrow-2.png" alt=""> <span>Read More</span></a>
-						</div>
-					</div>
-				</div>	
-			</div>
-		</div>
-	</section>	 -->
-<!-- End  of Blog section
 	============================================= -->
 
 @endsection
