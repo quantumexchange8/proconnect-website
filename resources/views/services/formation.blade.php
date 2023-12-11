@@ -3,7 +3,7 @@
 @section('content')
 <!-- Start of Breadcrumbs  section
 	============================================= -->
-	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="{{ asset('img/bg/bread-bg.png') }}">
+	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="{{ asset('img/bg/faizur-rehman-pHPzdEHN6Os-unsplash.jpg') }}">
 		<div class="container">
 			<div class="ori-breadcrumb-content text-center ul-li">
 				<h1>Formation</h1>
@@ -30,7 +30,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="{{ asset('img/icon/ic8.png') }}" alt="">
+								<img src="{{ asset('img/icon/ic5.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Mission and Vision Alignment</h3>
@@ -63,7 +63,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="{{ asset('img/icon/ic11.png') }}" alt="">
+								<img src="{{ asset('img/icon/ic1.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Target Audience Identification</h3>

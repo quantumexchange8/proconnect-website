@@ -250,21 +250,6 @@
 						</div>
 					</div>
 					<div class="ori-service-item-7 position-relative">
-						<div class="ori-service-inner-item-7 ser-color-6 position-relative">
-							<span class="service-shape1 position-absolute"> </span>
-							<div class="row">
-								<div class="ori-service-icon">
-									<i class="fal fa-pencil-ruler"></i>
-								</div>
-								<div class="ori-service-text pera-content">
-									<h3><a href="{{ asset('services/design') }}">Design</a></h3>
-									<p>Provide all-inclusive design options that uphold the brand's ethos and create a unified visual identity across digital platforms.</p>
-								</div>
-							</div>
-							<a class="read-more text-uppercase" href="{{ asset('services/design') }}"><img src="{{ asset('img/vector/arrow-2.png') }}" alt=""> <span>Read More</span></a>
-						</div>
-					</div>
-					<div class="ori-service-item-7 position-relative">
 						<div class="ori-service-inner-item-7 ser-color-7 position-relative">
 							<span class="service-shape1 position-absolute"> </span>
 							<div class="row">
@@ -314,40 +299,48 @@
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-fun-fact-item">
 							<div class="ori-fun-fact-icon">
-								<i class="fal fa-rocket"></i>
+								<i class="fal fa-smile"></i>
+								<!-- <img src="{{ asset('img/icon/rocket-launch-icon.png') }}" alt=""> -->
 							</div>
 							<div class="ori-fun-fact-text pera-content">
-								<h3><span class="counter">2420</span>+ Users</h3>
+								<h3><span class="counter">100</span>% Satisfaction</h3>
+								<p>Every client delighted with our web designs</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-fun-fact-item">
 							<div class="ori-fun-fact-icon">
-								<i class="fa-regular fa-arrow-trend-up"></i>
+								<i class="fal fa-chart-line"></i>
+								<!-- <img src="{{ asset('img/icon/traffic-up-icon.png') }}" alt=""> -->
 							</div>
 							<div class="ori-fun-fact-text pera-content">
-								<h3><span class="counter">349</span>+ Rating</h3>
+								<h3><span class="counter">20</span>% SEO Triumph</h3>
+								<p>Four out of five clients witness ranking ascensions</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-fun-fact-item">
 							<div class="ori-fun-fact-icon">
-								<i class="fa-light fa-file-pen"></i>
+								<i class="fal fa-chart-bar"></i>
+								<!-- <img src="{{ asset('img/icon/creative-pen-file-icon.png') }}" alt=""> -->
 							</div>
 							<div class="ori-fun-fact-text pera-content">
-								<h3><span class="counter">580</span>+ Download</h3>
+								<h3><span class="counter">1</span> Billion+ Data Points</h3>
+								<p>Monthly analytics powerhouse for informed strategies</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="ori-fun-fact-item">
 							<div class="ori-fun-fact-icon">
-								<i class="fa-light fa-handshake"></i>
+								<i class="fa fa-users"></i>
+								<!-- <img src="{{ asset('img/icon/digital-connection-icon.png') }}" alt=""> -->
 							</div>
 							<div class="ori-fun-fact-text pera-content">
-								<h3><span class="counter">970</span>+ Like</h3>
+								<h3>Social Media Impact</h3>
+								<p>60% of clients experience digital community growth</p>
 							</div>
 						</div>
 					</div>

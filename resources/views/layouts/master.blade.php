@@ -15,8 +15,8 @@
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/fontawesome-all.css') }}">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-	integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+	integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 	<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/odometer-theme-default.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/video.min.css') }}">
@@ -57,7 +57,6 @@
 										<li><a href="{{ asset('services/data') }}">Data</a></li>
 										<li><a href="{{ asset('services/content') }}">Content</a></li>
 										<li><a href="{{ asset('services/formation') }}">Formation</a></li>
-										<li><a href="{{ asset('services/design') }}">Design</a></li>
 										<li><a href="{{ asset('services/media') }}">Media</a></li>
 										<li><a href="{{ asset('services/social') }}">Social</a></li>
 									</ul>
@@ -94,7 +93,6 @@
 										<li><a href="{{ asset('services/data') }}">Data</a></li>
 										<li><a href="{{ asset('services/content') }}">Content</a></li>
 										<li><a href="{{ asset('services/formation') }}">Formation</a></li>
-										<li><a href="{{ asset('services/design') }}">Design</a></li>
 										<li><a href="{{ asset('services/media') }}">Media</a></li>
 										<li><a href="{{ asset('services/social') }}">Social</a></li>
 									</ul>

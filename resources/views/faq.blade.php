@@ -3,7 +3,8 @@
 @section('content')
 <!-- Start of Breadcrumbs  section
 	============================================= -->
-	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="{{ asset('img/bg/bread-bg.png') }}">
+	<!-- <a href="https://www.freepik.com/free-photo/call-center-hot-line-information-concept_17142702.htm#query=FAQ&position=2&from_view=search&track=sph&uuid=2292513f-4826-4bf5-ae69-70b8e468b8d5">Image by rawpixel.com</a> on Freepik -->
+	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="{{ asset('img/bg/call-center-hot-line-information-concept.jpg') }}">
 		<div class="container">
 			<div class="ori-breadcrumb-content text-center ul-li">
 				<h1>FAQ</h1>
@@ -255,29 +256,32 @@
 	<section id="ori-faq-price" class="ori-faq-price-section position-relative">
 		<div class="container">
 			<div class="ori-inner-section-title">
-				<span class="sub-title text-uppercase">PRICING PLANS</span>
-				<h2>Our Affordable Pricing Plans</h2>
+				<span class="sub-title text-uppercase">SERVICE PLANS</span>
+				<h2>Our Affordable SEO Packages</h2>
 			</div>
 			<div class="ori-faq-price-content">
 				<div class="row justify-content-center">
 					<div class="col-lg-4 col-md-6">
 						<div class="ori-faq-price-inner-item">
 							<div class="ori-faq-price-title">
-								<span class="price-plan text-uppercase">STANDARD</span>
-								<h2>$160.00 <span>Per month</span></h2>
+								<!-- <span class="price-plan text-uppercase">STANDARD</span> -->
+								<!-- <h2>$160.00 <span>Per month</span></h2> -->
+								<h2>STANDARD</h2>
 							</div>
 							<div class="ori-faq-price-slug">
 								Perfect for Professional 
 							</div>
-							<div class="ori-faq-price-list ul-li-block">
+							<div class="standard-package ori-faq-price-list ul-li-block">
 								<ul>
-									<li>Up to 100 keyphrases otimized</li>
-									<li>Custom dashboards: 4</li>
-									<li>Digital marketing expert</li>
-									<li>Content, and link monitoring</li>
-									<li>Content marketing assets: 4</li>
-									<li>Upload your document</li>
-									<li>Export PDF</li>
+									<li><span>5</span> Keywords Optimization</li>
+									<li>Keywords Research</li>
+									<li>Up to <span>5</span> Site Audit Pages</li>
+									<li>On-Page Optimization</li>
+									<li>Web Analytics</li>
+									<li><span>Basic</span> Link Building Campaign</li>
+									<li>Google My Business Optimization</li>
+									<li>Toxic Link Audit & Disavow</li>
+									<li>Monthly SEO Report</li>
 								</ul>
 							</div>
 							<div class="ori-faq-price-btn text-center text-uppercase">
@@ -288,21 +292,24 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="ori-faq-price-inner-item">
 							<div class="ori-faq-price-title">
-								<span class="price-plan text-uppercase">ultra</span>
-								<h2>$180.00 <span>Per month</span></h2>
+								<!-- <span class="price-plan text-uppercase">ultra</span>
+								<h2>$180.00 <span>Per month</span></h2> -->
+								<h2>ULTRA</h2>
 							</div>
 							<div class="ori-faq-price-slug">
 								Perfect for Professional 
 							</div>
 							<div class="ori-faq-price-list ul-li-block">
 								<ul>
-									<li>Up to 100 keyphrases otimized</li>
-									<li>Custom dashboards: 4</li>
-									<li>Digital marketing expert</li>
-									<li>Content, and link monitoring</li>
-									<li>Content marketing assets: 4</li>
-									<li>Upload your document</li>
-									<li>Export PDF</li>
+									<li><span>10</span> Keywords Optimization</li>
+									<li>Keywords Research</li>
+									<li>Up to <span>15</span> Site Audit Pages</li>
+									<li>On-Page Optimization</li>
+									<li>Web Analytics</li>
+									<li><span>Standard</span> Link Building Campaign</li>
+									<li>Google My Business Optimization</li>
+									<li>Toxic Link Audit & Disavow</li>
+									<li>Monthly SEO Report</li>
 								</ul>
 							</div>
 							<div class="ori-faq-price-btn text-center text-uppercase">
@@ -313,21 +320,24 @@
 					<div class="col-lg-4 col-md-6">
 						<div class="ori-faq-price-inner-item">
 							<div class="ori-faq-price-title">
-								<span class="price-plan text-uppercase">premium</span>
-								<h2>$210.00 <span>Per month</span></h2>
+								<!-- <span class="price-plan text-uppercase">premium</span>
+								<h2>$210.00 <span>Per month</span></h2> -->
+								<h2>PREMIUM</h2>
 							</div>
 							<div class="ori-faq-price-slug">
 								Perfect for Professional 
 							</div>
 							<div class="ori-faq-price-list ul-li-block">
 								<ul>
-									<li>Up to 100 keyphrases otimized</li>
-									<li>Custom dashboards: 4</li>
-									<li>Digital marketing expert</li>
-									<li>Content, and link monitoring</li>
-									<li>Content marketing assets: 4</li>
-									<li>Upload your document</li>
-									<li>Export PDF</li>
+									<li><span>15</span> Keywords Optimization</li>
+									<li>Keywords Research</li>
+									<li>Up to <span>40</span> Site Audit Pages</li>
+									<li>On-Page Optimization</li>
+									<li>Web Analytics</li>
+									<li><span>Advanced</span> Link Building Campaign</li>
+									<li>Google My Business Optimization</li>
+									<li>Toxic Link Audit & Disavow</li>
+									<li>Monthly SEO Report</li>
 								</ul>
 							</div>
 							<div class="ori-faq-price-btn text-center text-uppercase">
@@ -347,42 +357,63 @@
 	<section id="ori-sponsor-1" class="ori-sponsor-section-1 inner-sponsor position-relative">
 		<div class="container">
 			<div class="ori-sponsor-title text-uppercase text-center">
-				<h3><i></i> <span>Our Clients</span><i></i></h3>
+				<h3><i></i> <span>Our Services</span><i></i></h3>
 			</div>
 			<div class="ori-sponsor-content">
 				<div class="ori-sponsor-slider">
 					<div class="ori-sponsor-item">
-						<div class="ori-sponsor-img">
+						<div class="ori-sponsor-img">	
+							<h3>Web Design</h3>
 							<a href="#">
-								<img src="{{ asset('img/logo/penapcer-high-resolution-logo-black-transparent.png') }}" alt="">
+								<img src="{{ asset('img/bg/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg') }}" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">	
+							<h3>SEO</h3>
+							<a href="#">
+								<img src="{{ asset('img/bg/growtika-70L6WwrvSC0-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
+							<h3>Data</h3>
 							<a href="#">
-								<img src="{{ asset('img/logo/ocean-logi-high-resolution-logo-black-transparent.png') }}" alt="">
+								<img src="{{ asset('img/bg/campaign-creators-774sCXD0dDU-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
+							<h3>Content</h3>
 							<a href="#">
-								<img src="{{ asset('img/logo/quagotech-high-resolution-logo-black-transparent.png') }}" alt="">
+								<img src="{{ asset('img/bg/thought-catalog-505eectW54k-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
+							<h3>Formation</h3>
 							<a href="#">
-								<img src="{{ asset('img/logo/lomapro-high-resolution-logo-black-transparent.png') }}" alt="">
+								<img src="{{ asset('img/bg/faizur-rehman-pHPzdEHN6Os-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
 					</div>
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
+							<h3>Media</h3>
 							<a href="#">
-								<img src="{{ asset('img/logo/strategic-solutions-high-resolution-logo-black-transparent.png') }}" alt="">
+								<img src="{{ asset('img/bg/lukas-blazek-mcSDtbWXUZU-unsplash.jpg') }}" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="ori-sponsor-item">
+						<div class="ori-sponsor-img">
+							<h3>Social</h3>
+							<a href="#">
+								<img src="{{ asset('img/bg/mariia-shalabaieva-HBkpnDVc_Ic-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
 					</div>

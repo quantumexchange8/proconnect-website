@@ -3,7 +3,7 @@
 @section('content')
 <!-- Start of Breadcrumbs  section
 	============================================= -->
-	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="{{ asset('img/bg/bread-bg.png') }}">
+	<section id="ori-breadcrumbs" class="ori-breadcrumbs-section position-relative" data-background="{{ asset('img/bg/campaign-creators-774sCXD0dDU-unsplash.jpg') }}">
 		<div class="container">
 			<div class="ori-breadcrumb-content text-center ul-li">
 				<h1>Data</h1>
@@ -30,7 +30,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="{{ asset('img/icon/ic8.png') }}" alt="">
+								<img src="{{ asset('img/icon/ic10.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Predictive Analysis</h3>
@@ -41,7 +41,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="{{ asset('img/icon/ic9.png') }}" alt="">
+								<img src="{{ asset('img/icon/ic12.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Customized Reporting</h3>
@@ -52,7 +52,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="{{ asset('img/icon/ic10.png') }}" alt="">
+								<img src="{{ asset('img/icon/ic2.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Data Security</h3>
@@ -63,7 +63,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="{{ asset('img/icon/ic11.png') }}" alt="">
+								<img src="{{ asset('img/icon/ic13.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Segmentation</h3>
@@ -74,7 +74,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="{{ asset('img/icon/ic12.png') }}" alt="">
+								<img src="{{ asset('img/icon/ic3.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>User Conversion Tracking</h3>
@@ -85,7 +85,7 @@
 					<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
 						<div class="ori-service-item-4">
 							<div class="ori-service-icon d-flex justify-content-center align-items-center">
-								<img src="{{ asset('img/icon/ic13.png') }}" alt="">
+								<img src="{{ asset('img/icon/ic5.png') }}" alt="">
 							</div>
 							<div class="ori-service-text pera-content">
 								<h3>Competitor Analysis</h3>
