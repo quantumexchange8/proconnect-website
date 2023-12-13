@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () { return view('index'); });
-Route::get('/index', function () { return view('index'); });
-Route::get('/services', function () { return view('services'); });
+Route::get('/index', function () { return view('index'); })->name('index');
+
 Route::get('/services/web-design', function () { return view('services.web-design'); });
 Route::get('/services/seo', function () { return view('services.seo'); });
 Route::get('/services/data', function () { return view('services.data'); });
@@ -24,6 +25,9 @@ Route::get('/services/formation', function () { return view('services.formation'
 Route::get('/services/design', function () { return view('services.design'); });
 Route::get('/services/media', function () { return view('services.media'); });
 Route::get('/services/social', function () { return view('services.social'); });
+
 Route::get('/about', function () { return view('about'); });
 Route::get('/contact', function () { return view('contact'); });
 Route::get('/faq', function () { return view('faq'); });
+
+Route::post('/index', [MailController::class, 'store'])->name('analysis.form.store');

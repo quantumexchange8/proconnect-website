@@ -16,9 +16,44 @@
 				<h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Navigating Success, <br>Digitally Crafted, <br>Distinctly Yours.</h1>
 				<p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Delivering an optimal return on investment for your customized SEO campaign.</p>
 				<div class="ori-banner-form-4 position-relative wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
-					<form action="#" method="get">
-						<input type="text" name="link" placeholder="Your Current Site Link">
-						<button type="submit">analysis your site</button>
+					<input type="text" name="link" class="initial-link-input" placeholder="Your Email">
+					<form action="{{ route('analysis.form.store') }}" method="POST">
+						@csrf
+						@method('POST')
+						<!-- <button type="button">analysis your site</button> -->
+
+						<!-- User Details Analysis Modal Trigger Button -->
+						<button type="button" class="analysis-modal" data-bs-toggle="modal" data-bs-target="#userDetailsAnalysis">Analyze Your Site</button>
+
+						<!-- User Details Analysis Modal -->
+						<div class="modal fade" id="userDetailsAnalysis" tabindex="-99" aria-labelledby="userDetailsAnalysisLabel" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="userDetailsAnalysisLabel">Analysis Inquiry Form</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body p-5">
+										<div class="input-group mb-3">
+											<span class="input-group-text" id="analysis-inquiry-name">Name</span>
+											<input type="text" class="form-control" id="name" name="name" aria-label="Analysis_Inquiry_Name" aria-describedby="analysis-inquiry-name" placeholder="Enter your name">
+										</div>
+										<div class="input-group mb-3">
+											<span class="input-group-text" id="analysis-inquiry-email">Email</span>
+											<input type="text" class="form-control" id="email" name="email" aria-label="Analysis_Inquiry_Email" aria-describedby="analysis-inquiry-email" placeholder="Enter your email">
+										</div>
+										<div class="input-group mb-3">
+											<span class="input-group-text" id="analysis-inquiry-contact">Contact Number</span>
+											<input type="text" class="form-control" id="contact_number" name="contact_number" aria-label="Analysis_Inquiry_Contact" aria-describedby="analysis-inquiry-contact" placeholder="Enter your contact number">
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+										<button type="submit" class="btn btn-danger">Send</button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</form>
 				</div>
 			</div>

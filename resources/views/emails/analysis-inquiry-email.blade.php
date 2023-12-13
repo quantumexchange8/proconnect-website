@@ -1,0 +1,1 @@
+<h1>New Analysis Inquiry by {{ $content->name }}</h1>
