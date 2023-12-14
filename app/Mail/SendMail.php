@@ -30,8 +30,17 @@ class SendMail extends Mailable
      */
     public function envelope(): Envelope
     {
+        $subject = '';
+
+        // Check the actionType and set the subject accordingly
+        if ($this->data['actionType'] == 'analysisForm') {
+            $subject = 'Welcome to Proconnect! You have successfully submitted the Analysis Form.';
+        } elseif ($this->data['actionType'] == 'userSubscription') {
+            $subject = 'Welcome to Proconnect! You have successfully subscribed to our newsletter.';
+        }
+
         return new Envelope(
-            subject: 'New Analysis Inquiry',
+            subject: $subject,
         );
     }
 
@@ -41,7 +50,7 @@ class SendMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.analysis-inquiry-email',
+            view: 'emails.email-template',
             with: [
                 'content' => $this->data,
             ]

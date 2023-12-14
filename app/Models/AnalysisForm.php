@@ -13,8 +13,8 @@ class AnalysisForm extends Model
     protected $table = 'analysis_form';
 
     protected $fillable = [
-		'name',
-		'email',
-        'contact_number'
+      'name',
+      'email',
+      'contact_number'  
 	];
 }

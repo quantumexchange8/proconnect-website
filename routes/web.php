@@ -30,4 +30,6 @@ Route::get('/about', function () { return view('about'); });
 Route::get('/contact', function () { return view('contact'); });
 Route::get('/faq', function () { return view('faq'); });
 
-Route::post('/index', [MailController::class, 'store'])->name('analysis.form.store');
+Route::post('/index/analysis-form', [MailController::class, 'addAnalysisFormInquiry'])->name('analysis.form.add');
+Route::post('/index/subscription', [MailController::class, 'addUserSubscription'])->name('subscription.add');
+Route::get('/emails/email-template', function () { return view('emails.email-template'); });

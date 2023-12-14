@@ -26,6 +26,9 @@
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/swiper.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/rs6.css') }}">
+	{{-- toastr --}}
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+	
 </head>
 <body class="digital-agency-2">
 	<div id="preloader"></div>
@@ -111,6 +114,20 @@
 <!-- End of header section
 	============================================= -->
 
+<div aria-live="polite" aria-atomic="true" class="bg-dark position-fixed bd-example-toasts top-0 start-0" data-bs-animation="true" data-bs-autohide="true" data-bs-delay="5000">
+  <div class="toast-container position-absolute p-3" id="toastPlacement">
+    <div class="toast">
+      <div class="toast-header">
+        <strong class="me-auto">Bootstrap</strong>
+        <small>11 mins ago</small>
+      </div>
+      <div class="toast-body">
+        Hello, world! This is a toast message.
+      </div>
+    </div>
+  </div>
+</div>
+
 @yield('content')
 
 <!-- Start of Footer CTA section
@@ -146,12 +163,15 @@
 						</div>
 						<div class="col-md-6">
 							<div class="ori-footer-newslatter">
-								<form action="#" method="get">
+								<form action="{{ route('subscription.add') }}" method="POST">
+									@csrf
+									@method('POST')
+
 									<div class="newslatter-form position-relative">
 										<input class="email-field" type="email" name="email" placeholder="Your email address">
-										<button type="submit">SUBSCRIBE</button>
+										<button type="submit" id="subscribe" disabled>SUBSCRIBE</button>
 									</div>
-									<p><input class="checkbox-field" type="checkbox">*I have read the <a href="#">Privacy Policy </a> and agree
+									<p><input class="checkbox-field" type="checkbox" id="checkReadAgree" name="checkReadAgree">*I have read the <a href="#" id="policyLink">Privacy Policy </a> and agree
 									to its terms.</p>
 								</form>
 							</div>
@@ -165,7 +185,7 @@
 						</div>
 					</div>
 					<div class="ori-footer-social">
-						<a href="#"><i class="fab fa-facebook-f fa-3x"></i></a>
+						<a href="https://www.facebook.com/proconnect.solution/"><i class="fab fa-facebook-f fa-3x"></i></a>
 						<a href="#"><i class="fab fa-twitter fa-3x"></i></a>
 						<a href="#"><i class="fab fa-instagram fa-3x"></i></a>
 						<a href="#"><i class="fab fa-youtube fa-3x"></i></a>
@@ -202,37 +222,67 @@
 	<script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
 	<script src="{{ asset('js/jquery.marquee.min.js') }}"></script>
 	<script src="{{ asset('js/script.js') }}"></script>
+	{{-- toastr js --}}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
 
 	<script>
+		
+		$(document).ready(function() {
+			// Notification to display success or error message after redirect
+			toastr.options = {
+				"timeOut": 5000,
+				"positionClass": "toast-top-left",
+				"showEasing": "swing",
+				"hideEasing": "linear",
+				"showMethod": "fadeIn",
+				"hideMethod": "fadeOut"
+			}
+			@if (Session::has('error'))
+				toastr.error('{{ Session::get('error') }}');
+			@elseif(Session::has('success'))
+				toastr.success('{{ Session::get('success') }}');
+			@endif
+		});
+
+		$("#link-input").change(function() {
+			$("#email").val($("#link-input").val());
+		});
+
+		$("#email").change(function() {
+			$("#link-input").val($("#email").val());
+		});
+
+		$("#link-input").keyup(function() {
+			$("#email").val($("#link-input").val());
+		});
+
+		$("#email").keyup(function() {
+			$("#link-input").val($("#email").val());
+		});
+		
 		document.addEventListener("DOMContentLoaded", function() {
 			var currentPageUrl = window.location.href;
 
 			// Find the corresponding navigation link and add the 'active' class
 			var navLinks = document.querySelectorAll("#main-nav a");
+			var mobileNavLinks = document.querySelectorAll("#m-main-nav a");
+
 			navLinks.forEach(function(link) {
 				if (link.getAttribute("href") === currentPageUrl) {
 					link.classList.add("active");
 				}
 			});
-		});
 
-		document.addEventListener("DOMContentLoaded", function() {
-			var currentPageUrl = window.location.href;
-			var mobileNavLinks = document.querySelectorAll("#m-main-nav a");
 			mobileNavLinks.forEach(function(link) {
 				if (link.getAttribute("href") === currentPageUrl) {
 					link.classList.add("active");
 				}
 			});
+
+			document.getElementById('checkReadAgree').onchange = function() {
+				document.getElementById('subscribe').disabled = !this.checked;
+			};
 		});
-
-		// var myModal = document.getElementById('myModal')
-		// var myInput = document.getElementById('myInput')
-
-		// myModal.addEventListener('shown.bs.modal', function () {
-		// 	myInput.focus()
-		// })
 	</script>
-
 </body>
 </html>		

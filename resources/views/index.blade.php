@@ -16,8 +16,8 @@
 				<h1 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">Navigating Success, <br>Digitally Crafted, <br>Distinctly Yours.</h1>
 				<p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1000ms">Delivering an optimal return on investment for your customized SEO campaign.</p>
 				<div class="ori-banner-form-4 position-relative wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1000ms">
-					<input type="text" name="link" class="initial-link-input" placeholder="Your Email">
-					<form action="{{ route('analysis.form.store') }}" method="POST">
+					<input type="text" name="link" id="link-input" class="initial-link-input" placeholder="Your Email">
+					<form action="{{ route('analysis.form.add') }}" method="POST">
 						@csrf
 						@method('POST')
 						<!-- <button type="button">analysis your site</button> -->
@@ -663,7 +663,7 @@
 				</div>
 			</div>
 		</div>
-	</section>				
+	</section>
 <!-- End of Get Started section
 	============================================= -->
 

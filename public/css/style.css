@@ -3511,7 +3511,7 @@ select:visited {
   width: 100%;
   height: 70px;
   border: none;
-  padding-left: 30px;
+  padding-left: 100px;
   border-radius: 40px;
   -webkit-box-shadow: 0px 15px 25px 0px rgba(157, 159, 202, 0.1803921569);
           box-shadow: 0px 15px 25px 0px rgba(157, 159, 202, 0.1803921569);
@@ -10868,9 +10868,16 @@ Font load
   background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgb(0, 238, 235)), color-stop(53%, rgb(32, 166, 243)), to(rgb(63, 93, 251)));
   background: linear-gradient(-180deg, rgb(0, 238, 235) 1%, rgb(32, 166, 243) 53%, rgb(63, 93, 251) 100%);
 }
+.ori-footer-section.footer-style-seven .ori-footer-newslatter button:disabled {
+  background: #0d6efd94;
+  cursor: none;
+}
 .ori-footer-section.footer-style-seven .ori-footer-newslatter p {
   color: #fff;
   margin-top: 20px;
+}
+.ori-footer-section.footer-style-seven .ori-footer-newslatter p #policyLink {
+  color: #0dcaf0;
 }
 .ori-footer-section.footer-style-seven .ori-footer-newslatter p .checkbox-field {
   margin-right: 10px;
