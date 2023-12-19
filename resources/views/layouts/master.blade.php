@@ -171,7 +171,7 @@
 										<input class="email-field" type="email" name="email" placeholder="Your email address">
 										<button type="submit" id="subscribe" disabled>SUBSCRIBE</button>
 									</div>
-									<p><input class="checkbox-field" type="checkbox" id="checkReadAgree" name="checkReadAgree">*I have read the <a href="#" id="policyLink">Privacy Policy </a> and agree
+									<p><input class="checkbox-field" type="checkbox" id="checkReadAgree" name="checkReadAgree">I have read the <a href="#" id="policyLink">Privacy Policy </a> and agree
 									to its terms.</p>
 								</form>
 							</div>
