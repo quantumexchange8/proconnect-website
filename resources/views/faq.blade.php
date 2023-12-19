@@ -364,7 +364,7 @@
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">	
 							<h3>Web Design</h3>
-							<a href="#">
+							<a href="{{ url('services/web-design') }}">
 								<img src="{{ asset('img/bg/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
@@ -372,7 +372,7 @@
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">	
 							<h3>SEO</h3>
-							<a href="#">
+							<a href="{{ url('services/seo') }}">
 								<img src="{{ asset('img/bg/growtika-70L6WwrvSC0-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
@@ -380,7 +380,7 @@
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<h3>Data</h3>
-							<a href="#">
+							<a href="{{ url('services/data') }}">
 								<img src="{{ asset('img/bg/campaign-creators-774sCXD0dDU-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
@@ -388,7 +388,7 @@
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<h3>Content</h3>
-							<a href="#">
+							<a href="{{ url('services/content') }}">
 								<img src="{{ asset('img/bg/thought-catalog-505eectW54k-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
@@ -396,7 +396,7 @@
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<h3>Formation</h3>
-							<a href="#">
+							<a href="{ url('services/formation') }}">
 								<img src="{{ asset('img/bg/faizur-rehman-pHPzdEHN6Os-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
@@ -404,7 +404,7 @@
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<h3>Media</h3>
-							<a href="#">
+							<a href="{{ url('services/media') }}">
 								<img src="{{ asset('img/bg/lukas-blazek-mcSDtbWXUZU-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
@@ -412,7 +412,7 @@
 					<div class="ori-sponsor-item">
 						<div class="ori-sponsor-img">
 							<h3>Social</h3>
-							<a href="#">
+							<a href="{{ url('services/social') }}">
 								<img src="{{ asset('img/bg/mariia-shalabaieva-HBkpnDVc_Ic-unsplash.jpg') }}" alt="">
 							</a>
 						</div>
