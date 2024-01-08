@@ -3,12 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="robots" content="noindex, nofollow">
-	<title>Proconnect </title>
-	<!-- <meta name="description" content="Orixy - Digital Agency HTML Template
-	"> -->
-	<!-- <meta name="keywords" content="advertising, advertising agency, agency, agency theme, business, creative agency, digital, digital advertising, digital agency, digital marketing, digital marketing agency, digital theme, marketing, startup">
-	<meta name="author" content="Themexriver">
-	<link rel="shortcut icon" href="assets/img/logo/ficon.png" type="image/x-icon"> -->
+	<title>Home | Proconnect Solution</title>
+	<meta name="description" content="We craft and deliver engaging web experiences, generate organic web traffic through advanced and technical SEO, and leverage data for guided decisions."> 
+	<meta name="keywords" content="advertising, advertising agency, agency, agency theme, business, creative agency, digital, digital advertising, digital agency, digital marketing, digital marketing agency, SEO, marketing, startup">
+	<meta name="author" content="Proconnect Solution">
+	<link rel="shortcut icon" href="{{ asset('img/logo/logo-only.svg') }}" type="image/x-icon">
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -43,30 +42,30 @@
 		<div class="ori-header-content-area">
 			<div class="ori-header-content d-flex align-items-center justify-content-between">
 				<div class="brand-logo">
-					<a href="{{ asset('index') }}"><img src="{{ asset('img/logo/logo5.png') }}" alt=""></a>
+					<a href="{{ url('/') }}"><img src="{{ asset('img/logo/logo2.svg') }}" height="62px" width="184px" alt="Proconnect Solution"></a>
 				</div>
 				<div class="ori-main-navigation-cta-btn d-flex align-items-center">
 					<div class="ori-main-navigation-area">
 						<nav class="ori-main-navigation clearfix ul-li">
 							<ul id="main-nav" class="nav navbar-nav clearfix">
 								<li class="dropdown ori-megamenu">
-									<a href="{{ asset('index') }}">Home</a>
+									<a href="{{ url('/') }}">Home</a>
 								</li>
 								<li class="dropdown">
 									<a>Services</a>
 									<ul class="dropdown-menu clearfix">
-										<li><a href="{{ asset('services/web-design') }}">Web Design</a></li>
-										<li><a href="{{ asset('services/seo') }}">SEO</a></li>
-										<li><a href="{{ asset('services/data') }}">Data</a></li>
-										<li><a href="{{ asset('services/content') }}">Content</a></li>
-										<li><a href="{{ asset('services/formation') }}">Formation</a></li>
-										<li><a href="{{ asset('services/media') }}">Media</a></li>
-										<li><a href="{{ asset('services/social') }}">Social</a></li>
+										<li><a href="{{ url('services/web-design') }}">Web Design</a></li>
+										<li><a href="{{ url('services/seo') }}">SEO</a></li>
+										<li><a href="{{ url('services/data') }}">Data</a></li>
+										<li><a href="{{ url('services/content') }}">Content</a></li>
+										<li><a href="{{ url('services/formation') }}">Formation</a></li>
+										<li><a href="{{ url('services/media') }}">Media</a></li>
+										<li><a href="{{ url('services/social') }}">Social</a></li>
 									</ul>
 								</li>
-								<li><a href="{{ asset('about') }}">About</a></li>
-								<li><a href="{{ asset('contact') }}">Contact</a></li>
-								<li><a href="{{ asset('faq') }}">FAQ</a></li>
+								<li><a href="{{ url('about') }}">About</a></li>
+								<li><a href="{{ url('contact') }}">Contact</a></li>
+								<li><a href="{{ url('faq') }}">FAQ</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -83,26 +82,26 @@
 							<i class="fal fa-times"></i>
 						</div>
 						<div class="m-brand-logo">
-							<a  href="{{ asset('index') }}"><img src="{{ asset('img/logo/logo1.png') }}" alt=""></a>
+							<a  href="{{ url('1') }}"><img src="{{ asset('img/logo/logo1.png') }}" alt=""></a>
 						</div>
 						<nav class="mobile-main-navigation  clearfix ul-li">
 							<ul id="m-main-nav" class="nav navbar-nav clearfix">
-								<li class="ori-megamenu"><a href="{{ asset('index') }}">Home</a></li>
+								<li class="ori-megamenu"><a href="{{ url('/') }}">Home</a></li>
 								<li class="dropdown">
 									<a href="#">Services</a>
 									<ul class="dropdown-menu clearfix">
-										<li><a href="{{ asset('services/web-design') }}">Web Design</a></li>
-										<li><a href="{{ asset('services/seo') }}">SEO</a></li>
-										<li><a href="{{ asset('services/data') }}">Data</a></li>
-										<li><a href="{{ asset('services/content') }}">Content</a></li>
-										<li><a href="{{ asset('services/formation') }}">Formation</a></li>
-										<li><a href="{{ asset('services/media') }}">Media</a></li>
-										<li><a href="{{ asset('services/social') }}">Social</a></li>
+										<li><a href="{{ url('services/web-design') }}">Web Design</a></li>
+										<li><a href="{{ url('services/seo') }}">SEO</a></li>
+										<li><a href="{{ url('services/data') }}">Data</a></li>
+										<li><a href="{{ url('services/content') }}">Content</a></li>
+										<li><a href="{{ url('services/formation') }}">Formation</a></li>
+										<li><a href="{{ url('services/media') }}">Media</a></li>
+										<li><a href="{{ url('services/social') }}">Social</a></li>
 									</ul>
 								</li>
-								<li><a href="{{ asset('about') }}">About</a></li>
-								<li><a href="{{ asset('contact') }}">Contact</a></li>
-								<li><a href="{{ asset('faq') }}">FAQ</a></li>
+								<li><a href="{{ url('about') }}">About</a></li>
+								<li><a href="{{ url('contact') }}">Contact</a></li>
+								<li><a href="{{ url('faq') }}">FAQ</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -139,7 +138,7 @@
 					<div class="ori-footer-cta-text-7 text-center">
 						<h3>Looking expand your business?</h3>
 						<div class="ori-btn-7">
-							<a href="/contact">Contact With Us <i class="far fa-long-arrow-right"></i></a>
+							<a href="{{ url('contact') }}">Contact With Us <i class="far fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
@@ -181,7 +180,7 @@
 				<div class="ori-footer-logo-social d-flex justify-content-between align-items-center">
 					<div class="ori-footer-logo">
 						<div class="brand-logo">
-							<a href="{{ asset('index') }}"><img src="{{ asset('img/logo/logo6.png') }}" alt=""></a>
+							<a href="{{ url('/') }}"><img src="{{ asset('img/logo/logo6.png') }}" alt=""></a>
 						</div>
 					</div>
 					<div class="ori-footer-social">
@@ -192,7 +191,7 @@
 					</div>
 				</div>
 				<div class="ori-footer-copyright text-center">
-					© 2023 Proconnect. All rights reserved.
+					© 2023 Proconnect Solution. All rights reserved.
 				</div>
 			</div>
 		</div>
