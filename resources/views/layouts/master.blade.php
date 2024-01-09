@@ -14,8 +14,6 @@
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/fontawesome-all.css') }}">
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-	integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 	<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/odometer-theme-default.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/video.min.css') }}">
@@ -82,7 +80,7 @@
 							<i class="fal fa-times"></i>
 						</div>
 						<div class="m-brand-logo">
-							<a  href="{{ url('1') }}"><img src="{{ asset('img/logo/logo1.png') }}" alt=""></a>
+							<a  href="{{ url('/') }}"><img src="{{ asset('img/logo/logo-white.svg') }}" width="172px" height="46px" alt="Proconnect Solution"></a>
 						</div>
 						<nav class="mobile-main-navigation  clearfix ul-li">
 							<ul id="m-main-nav" class="nav navbar-nav clearfix">
@@ -180,7 +178,7 @@
 				<div class="ori-footer-logo-social d-flex justify-content-between align-items-center">
 					<div class="ori-footer-logo">
 						<div class="brand-logo">
-							<a href="{{ url('/') }}"><img src="{{ asset('img/logo/logo6.png') }}" alt=""></a>
+							<a href="{{ url('/') }}"><img src="{{ asset('img/logo/logo-white.svg') }}" width="176px" height="56px" alt="Proconnect Solution"></a>
 						</div>
 					</div>
 					<div class="ori-footer-social">
@@ -191,7 +189,7 @@
 					</div>
 				</div>
 				<div class="ori-footer-copyright text-center">
-					© 2023 Proconnect Solution. All rights reserved.
+					Proconnect Solution © 2023. All rights reserved.
 				</div>
 			</div>
 		</div>
